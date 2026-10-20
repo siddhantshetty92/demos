@@ -1,0 +1,9 @@
+diff --git a/src/shifts.js b/src/shifts.js
+--- a/src/shifts.js
++++ b/src/shifts.js
+@@ -8,6 +8,7 @@ export function validateShiftInput(body) {
+   requireString(body, "start");
+   requireString(body, "end");
+   requireString(body, "assignee");
++  requireString(body, "site_id");
+ }

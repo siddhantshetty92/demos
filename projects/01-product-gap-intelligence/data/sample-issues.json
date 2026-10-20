@@ -1,0 +1,184 @@
+[
+  {
+    "id": "GAP-101",
+    "url": "https://tracker.example.com/issue/GAP-101",
+    "title": "Scheduling \u2192 Shift Bidding \u2192 Seniority-weighted bid rounds",
+    "labels": [
+      "Deal breaker",
+      "product-gap"
+    ],
+    "priority": 1,
+    "status": "Triage",
+    "createdAt": "2026-03-12",
+    "description": "Requested in late-stage evaluations.\n\n### Larkspur Bank | $65k | Enterprise | Renewal\n* Opportunity: https://crm.example.com/opportunity/OPP-1007\n### Saffron Grocers | $65k | Mid-Market | Proposal\n* Opportunity: https://crm.example.com/opportunity/OPP-1008\n### Juniper Freight | $40k | Enterprise | Renewal\n* Opportunity: https://crm.example.com/opportunity/OPP-1009"
+  },
+  {
+    "id": "GAP-102",
+    "url": "https://tracker.example.com/issue/GAP-102",
+    "title": "Scheduling \u2192 Time Off \u2192 Accrual policies per region",
+    "labels": [
+      "High impact",
+      "product-gap"
+    ],
+    "priority": 2,
+    "status": "Triage",
+    "createdAt": "2026-03-27",
+    "description": "Requested in late-stage evaluations.\n\n### Saffron Grocers | $340k | Mid-Market | Discovery\n* Opportunity: https://crm.example.com/opportunity/OPP-1014\n### Kestrel Health | $65k | Enterprise | Evaluation\n* Opportunity: https://crm.example.com/opportunity/OPP-1015\n### Moraine Outdoor | $40k | Mid-Market | Renewal\n* Opportunity: https://crm.example.com/opportunity/OPP-1016\n### Wren Insurance | $340k | Mid-Market | Discovery\n* Opportunity: https://crm.example.com/opportunity/OPP-1017"
+  },
+  {
+    "id": "GAP-103",
+    "url": "https://tracker.example.com/issue/GAP-103",
+    "title": "Scheduling \u2192 Rules \u2192 Consecutive-weekend rest rule",
+    "labels": [
+      "Medium impact",
+      "product-gap"
+    ],
+    "priority": 3,
+    "status": "Planned",
+    "createdAt": "2026-07-15",
+    "description": "Requested in late-stage evaluations.\n\n### Pebble Pay | $90k | Mid-Market | Renewal\n* Opportunity: https://crm.example.com/opportunity/OPP-1021\n### Saffron Grocers | $65k | Mid-Market | Renewal\n* Opportunity: https://crm.example.com/opportunity/OPP-1022"
+  },
+  {
+    "id": "GAP-104",
+    "url": "https://tracker.example.com/issue/GAP-104",
+    "title": "Forecasting \u2192 Models \u2192 Holiday effects by country",
+    "labels": [
+      "High impact",
+      "product-gap"
+    ],
+    "priority": 2,
+    "status": "Backlog",
+    "createdAt": "2026-07-12",
+    "description": "Requested in late-stage evaluations.\n\n### Vantage Telecom | $120k | Enterprise | Proposal\n* Opportunity: https://crm.example.com/opportunity/OPP-1028"
+  },
+  {
+    "id": "GAP-105",
+    "url": "https://tracker.example.com/issue/GAP-105",
+    "title": "Forecasting \u2192 What-if \u2192 Scenario compare side by side",
+    "labels": [
+      "Low impact",
+      "product-gap"
+    ],
+    "priority": 4,
+    "status": "In Progress",
+    "createdAt": "2026-09-20",
+    "description": "Requested in late-stage evaluations.\n\n### Vantage Telecom | $120k | Enterprise | Negotiation\n* Opportunity: https://crm.example.com/opportunity/OPP-1035"
+  },
+  {
+    "id": "GAP-106",
+    "url": "https://tracker.example.com/issue/GAP-106",
+    "title": "Integrations \u2192 Telephony \u2192 Realtime agent-state webhook",
+    "labels": [
+      "Deal breaker",
+      "product-gap"
+    ],
+    "priority": 1,
+    "status": "In Progress",
+    "createdAt": "2026-05-12",
+    "description": "Requested in late-stage evaluations.\n\n### Vantage Telecom | $120k | Enterprise | Evaluation\n* Opportunity: https://crm.example.com/opportunity/OPP-1042\n### Tidewater Energy | $120k | Enterprise | Discovery\n* Opportunity: https://crm.example.com/opportunity/OPP-1043\n### Quillon Travel | $180k | Mid-Market | Renewal\n* Opportunity: https://crm.example.com/opportunity/OPP-1044\n### Pebble Pay | $480k | Mid-Market | Proposal\n* Opportunity: https://crm.example.com/opportunity/OPP-1045"
+  },
+  {
+    "id": "GAP-107",
+    "url": "https://tracker.example.com/issue/GAP-107",
+    "title": "Integrations \u2192 CRM \u2192 Custom object sync",
+    "labels": [
+      "Medium impact",
+      "product-gap"
+    ],
+    "priority": 3,
+    "status": "Planned",
+    "createdAt": "2026-04-25",
+    "description": "Requested in late-stage evaluations.\n\n### Umber Games | $340k | SMB | Evaluation\n* Opportunity: https://crm.example.com/opportunity/OPP-1049"
+  },
+  {
+    "id": "GAP-108",
+    "url": "https://tracker.example.com/issue/GAP-108",
+    "title": "Integrations \u2192 BPO \u2192 Partner file drop over SFTP",
+    "labels": [
+      "High impact",
+      "product-gap"
+    ],
+    "priority": 2,
+    "status": "Backlog",
+    "createdAt": "2026-05-25",
+    "description": "Requested in late-stage evaluations.\n\n### Juniper Freight | $250k | Enterprise | Proposal\n* Opportunity: https://crm.example.com/opportunity/OPP-1056\n### Wren Insurance | $250k | Mid-Market | Renewal\n* Opportunity: https://crm.example.com/opportunity/OPP-1057\n### Kestrel Health | $480k | Enterprise | Renewal\n* Opportunity: https://crm.example.com/opportunity/OPP-1058\n### Umber Games | $480k | SMB | Discovery\n* Opportunity: https://crm.example.com/opportunity/OPP-1059"
+  },
+  {
+    "id": "GAP-109",
+    "url": "https://tracker.example.com/issue/GAP-109",
+    "title": "Reporting \u2192 Exports \u2192 Scheduled warehouse export",
+    "labels": [
+      "Medium impact",
+      "product-gap"
+    ],
+    "priority": 3,
+    "status": "In Progress",
+    "createdAt": "2026-05-22",
+    "description": "Requested in late-stage evaluations.\n\n### Juniper Freight | $180k | Enterprise | Renewal\n* Opportunity: https://crm.example.com/opportunity/OPP-1063"
+  },
+  {
+    "id": "GAP-110",
+    "url": "https://tracker.example.com/issue/GAP-110",
+    "title": "Reporting \u2192 Dashboards \u2192 Interval-level SLA drilldown",
+    "labels": [
+      "Low impact",
+      "product-gap"
+    ],
+    "priority": 4,
+    "status": "Planned",
+    "createdAt": "2026-04-17",
+    "description": "Requested in late-stage evaluations.\n\n### Juniper Freight | $90k | Enterprise | Renewal\n* Opportunity: https://crm.example.com/opportunity/OPP-1070\n### Tidewater Energy | $65k | Enterprise | Negotiation\n* Opportunity: https://crm.example.com/opportunity/OPP-1071\n### Quillon Travel | $40k | Mid-Market | Evaluation\n* Opportunity: https://crm.example.com/opportunity/OPP-1072"
+  },
+  {
+    "id": "GAP-111",
+    "url": "https://tracker.example.com/issue/GAP-111",
+    "title": "AI Agents \u2192 Handoff \u2192 Warm transfer with transcript summary",
+    "labels": [
+      "Deal breaker",
+      "product-gap"
+    ],
+    "priority": 1,
+    "status": "Planned",
+    "createdAt": "2026-08-22",
+    "description": "Requested in late-stage evaluations.\n\n### Saffron Grocers | $480k | Mid-Market | Negotiation\n* Opportunity: https://crm.example.com/opportunity/OPP-1077\n### Tidewater Energy | $180k | Enterprise | Evaluation\n* Opportunity: https://crm.example.com/opportunity/OPP-1078\n### Kestrel Health | $340k | Enterprise | Renewal\n* Opportunity: https://crm.example.com/opportunity/OPP-1079\n### Larkspur Bank | $180k | Enterprise | Negotiation\n* Opportunity: https://crm.example.com/opportunity/OPP-1080"
+  },
+  {
+    "id": "GAP-112",
+    "url": "https://tracker.example.com/issue/GAP-112",
+    "title": "AI Agents \u2192 QA \u2192 Auto-scoring against a rubric",
+    "labels": [
+      "Roadmap",
+      "product-gap"
+    ],
+    "priority": 4,
+    "status": "Backlog",
+    "createdAt": "2026-06-28",
+    "description": "Requested in late-stage evaluations.\n\n### Larkspur Bank | $90k | Enterprise | Evaluation\n* Opportunity: https://crm.example.com/opportunity/OPP-1084\n### Kestrel Health | $120k | Enterprise | Evaluation\n* Opportunity: https://crm.example.com/opportunity/OPP-1085"
+  },
+  {
+    "id": "GAP-113",
+    "url": "https://tracker.example.com/issue/GAP-113",
+    "title": "Admin & Security \u2192 SSO \u2192 SCIM group provisioning",
+    "labels": [
+      "High impact",
+      "product-gap"
+    ],
+    "priority": 2,
+    "status": "Planned",
+    "createdAt": "2026-07-28",
+    "description": "Requested in late-stage evaluations.\n\n### Pebble Pay | $40k | Mid-Market | Evaluation\n* Opportunity: https://crm.example.com/opportunity/OPP-1091\n### Yarrow Learning | $340k | SMB | Renewal\n* Opportunity: https://crm.example.com/opportunity/OPP-1092"
+  },
+  {
+    "id": "GAP-114",
+    "url": "https://tracker.example.com/issue/GAP-114",
+    "title": "Admin & Security \u2192 Audit \u2192 Field-level change log",
+    "labels": [
+      "Low impact",
+      "product-gap"
+    ],
+    "priority": 4,
+    "status": "Backlog",
+    "createdAt": "2026-06-22",
+    "description": "Requested in late-stage evaluations.\n\n### Larkspur Bank | $40k | Enterprise | Negotiation\n* Opportunity: https://crm.example.com/opportunity/OPP-1098\n### Umber Games | $340k | SMB | Negotiation\n* Opportunity: https://crm.example.com/opportunity/OPP-1099\n### Vantage Telecom | $340k | Enterprise | Negotiation\n* Opportunity: https://crm.example.com/opportunity/OPP-1100"
+  }
+]

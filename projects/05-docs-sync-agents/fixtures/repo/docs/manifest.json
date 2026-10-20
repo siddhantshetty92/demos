@@ -1,0 +1,6 @@
+{
+  "src/jobs/publish.js": {
+    "runbook": "runbooks/publish-job-failures.md",
+    "spec": null
+  }
+}

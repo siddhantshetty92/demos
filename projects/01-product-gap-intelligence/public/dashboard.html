@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Product Gap Intelligence</title>
+<style>
+:root {
+  --bg: #f8f7f4; --surface: #ffffff; --surface-2: #f0efe9; --text: #1a1a18; --muted: #6b6a65;
+  --line: rgba(0,0,0,.1); --accent: #2a6fd6; --critical: #c93b3b; --high: #e07a36; --medium: #d6a51f; --low: #3a9d6e; --roadmap: #8a7fd0;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #121211; --surface: #1c1c1a; --surface-2: #262624; --text: #f1f0ea; --muted: #a3a29b; --line: rgba(255,255,255,.1); --accent: #6fa3ee;
+    --critical: #ec6a5e; --high: #f0954f; --medium: #e3bb3c; --low: #4fbf8a; --roadmap: #a99cf0; }
+}
+* { box-sizing: border-box; }
+html { background: var(--bg); }
+body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+.page { max-width: 1200px; margin: 0 auto; padding: 28px 16px 64px; }
+header { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
+h1 { font-size: 20px; margin: 0; }
+.sub { color: var(--muted); font-size: 12.5px; margin: 4px 0 0; }
+a { color: var(--accent); }
+header a { color: var(--muted); font-size: 12.5px; text-decoration: none; }
+header a:hover { color: var(--text); }
+.banner { margin: 14px 0 0; padding: 8px 12px; border-radius: 8px; background: var(--surface-2); color: var(--muted); font-size: 12.5px; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; margin: 20px 0; }
+.tile { background: var(--surface-2); border-radius: 10px; padding: 12px 14px; border: 1.5px solid transparent; cursor: pointer; text-align: left; color: inherit; font: inherit; }
+.tile[aria-pressed="true"] { border-color: var(--text); }
+.tile .label { font-size: 12px; color: var(--muted); }
+.tile .value { font-size: 24px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+.card h2 { font-size: 13px; margin: 0 0 10px; color: var(--muted); font-weight: 600; }
+.bar-row { display: grid; grid-template-columns: 140px 1fr 70px; align-items: center; gap: 8px; padding: 4px 0; cursor: pointer; border-radius: 6px; }
+.bar-row:hover { background: var(--surface-2); }
+.bar-row[aria-pressed="true"] .name { font-weight: 700; }
+.bar-row .name { font-size: 12.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bar-track { height: 10px; background: var(--surface-2); border-radius: 5px; overflow: hidden; }
+.bar-fill { display: block; height: 100%; background: var(--accent); border-radius: 5px; }
+.bar-row .num { font-size: 12px; text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); }
+.table-card { margin-top: 14px; overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { text-align: left; font-size: 11.5px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); padding: 8px 6px; border-bottom: 1px solid var(--line); }
+td { padding: 11px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:hover td { background: color-mix(in srgb, var(--surface-2) 60%, transparent); }
+.gap-title { color: var(--text); font-weight: 600; text-decoration: none; }
+.gap-title:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+.gap-meta { color: var(--muted); font-size: 12px; margin-top: 2px; }
+td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.pill { display: inline-block; font-size: 11.5px; font-weight: 600; padding: 2px 9px; border-radius: 999px; white-space: nowrap;
+  color: color-mix(in srgb, var(--c) 70%, var(--text)); background: color-mix(in srgb, var(--c) 16%, transparent); }
+.accounts { color: var(--muted); font-size: 12px; line-height: 1.6; }
+.accounts b { color: var(--text); font-weight: 500; }
+.filters { font-size: 12.5px; color: var(--muted); margin: 0 0 8px; }
+.filters button { font: inherit; background: none; border: none; color: var(--accent); cursor: pointer; padding: 0; }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div>
+      <h1>Product Gap Intelligence</h1>
+      <p class="sub" id="meta">Loading…</p>
+    </div>
+    <a href="/auth/logout" id="signout">Sign out</a>
+  </header>
+  <p class="banner" id="banner" hidden>Static preview with mock data. In production this page is served only after sign-in and loads live data from <code>/api/gaps</code>.</p>
+  <div class="tiles" id="tiles"></div>
+  <div class="grid">
+    <div class="card"><h2>ARR at risk by product area</h2><div id="by-area"></div></div>
+    <div class="card"><h2>Gaps by deal impact</h2><div id="by-impact"></div></div>
+  </div>
+  <div class="card table-card">
+    <p class="filters" id="filters"></p>
+    <table>
+      <thead><tr><th>Gap</th><th>Area</th><th>Impact</th><th>Status</th><th>Accounts</th><th style="text-align:right">ARR at risk</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+</div>
+<script>
+const IMPACT_COLORS = { "Deal breaker": "var(--critical)", "High impact": "var(--high)", "Medium impact": "var(--medium)", "Low impact": "var(--low)", "Roadmap": "var(--roadmap)", "Unrated": "var(--muted)" };
+const state = { data: null, area: null, impact: null, dealBreakersOnly: false };
+const money = (n) => n >= 1e6 ? `$${(n / 1e6).toFixed(1)}M` : `$${Math.round(n / 1e3)}k`;
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+
+function filtered() {
+  return state.data.gaps.filter((g) =>
+    (!state.area || g.area === state.area) &&
+    (!state.impact || g.impact === state.impact) &&
+    (!state.dealBreakersOnly || g.impact === "Deal breaker"));
+}
+
+function bars(el, groups, key, valueOf, label) {
+  const max = Math.max(...groups.map(valueOf), 1);
+  el.innerHTML = groups.map((g) => `
+    <div class="bar-row" role="button" tabindex="0" data-key="${esc(g.key)}" aria-pressed="${state[key] === g.key}">
+      <span class="name" title="${esc(g.key)}">${esc(g.key)}</span>
+      <span class="bar-track"><span class="bar-fill" style="width:${(valueOf(g) / max) * 100}%;${key === "impact" ? `background:${IMPACT_COLORS[g.key]}` : ""}"></span></span>
+      <span class="num">${label(g)}</span>
+    </div>`).join("");
+  el.querySelectorAll(".bar-row").forEach((row) => {
+    const toggle = () => { state[key] = state[key] === row.dataset.key ? null : row.dataset.key; render(); };
+    row.addEventListener("click", toggle);
+    row.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(); } });
+  });
+}
+
+function render() {
+  const { summary, generatedAt, viewer } = state.data;
+  document.getElementById("meta").textContent = `${summary.totals.gaps} open gaps · refreshed ${new Date(generatedAt).toLocaleString()} · ${state.data.preview ? "mock data" : `signed in as ${viewer}`}`;
+  const t = summary.totals;
+  document.getElementById("tiles").innerHTML = `
+    <button class="tile" data-tile="all" aria-pressed="${!state.dealBreakersOnly && !state.area && !state.impact}"><div class="label">Open gaps</div><div class="value">${t.gaps}</div></button>
+    <button class="tile" data-tile="deal" aria-pressed="${state.dealBreakersOnly}"><div class="label">Deal breakers</div><div class="value">${t.dealBreakers}</div></button>
+    <div class="tile" style="cursor:default"><div class="label">Accounts affected</div><div class="value">${t.accountsAffected}</div></div>
+    <div class="tile" style="cursor:default"><div class="label">Unique ARR at risk</div><div class="value">${money(t.uniqueArrAtRisk)}</div></div>`;
+  document.querySelector('[data-tile="all"]').onclick = () => { Object.assign(state, { area: null, impact: null, dealBreakersOnly: false }); render(); };
+  document.querySelector('[data-tile="deal"]').onclick = () => { state.dealBreakersOnly = !state.dealBreakersOnly; render(); };
+
+  bars(document.getElementById("by-area"), summary.byArea, "area", (g) => g.arrAtRisk, (g) => money(g.arrAtRisk));
+  bars(document.getElementById("by-impact"), summary.byImpact, "impact", (g) => g.count, (g) => `${g.count} gaps`);
+
+  const active = [state.area, state.impact, state.dealBreakersOnly && "Deal breakers only"].filter(Boolean);
+  document.getElementById("filters").innerHTML = active.length
+    ? `Filtered: ${active.map(esc).join(" · ")} — <button id="clear">clear</button>` : "All gaps, sorted by ARR at risk";
+  document.getElementById("clear")?.addEventListener("click", () => { Object.assign(state, { area: null, impact: null, dealBreakersOnly: false }); render(); });
+
+  document.getElementById("rows").innerHTML = filtered().sort((a, b) => b.arrAtRisk - a.arrAtRisk).map((g) => `
+    <tr>
+      <td><a class="gap-title" href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.feature)}</a><div class="gap-meta">${esc(g.id)} · ${esc(g.subArea)}</div></td>
+      <td>${esc(g.area)}</td>
+      <td><span class="pill" style="--c:${IMPACT_COLORS[g.impact]}">${esc(g.impact)}</span></td>
+      <td>${esc(g.status)}</td>
+      <td class="accounts">${g.accounts.map((a) => `<b>${esc(a.name)}</b> · ${money(a.arr)} · ${esc(a.stage)}`).join("<br>")}</td>
+      <td class="num">${money(g.arrAtRisk)}</td>
+    </tr>`).join("");
+}
+
+function show(data) {
+  state.data = data;
+  if (data.preview) {
+    document.getElementById("banner").hidden = false;
+    document.getElementById("signout").hidden = true;
+  }
+  render();
+}
+
+if (location.protocol === "file:") {
+  const script = document.createElement("script");
+  script.src = "../data/preview.js";
+  script.onload = () => show(globalThis.GAP_PREVIEW);
+  script.onerror = () => { document.getElementById("meta").textContent = "Run `node build-preview.js` to create the static preview data, or `npm run demo` to use the server."; };
+  document.head.append(script);
+} else {
+  fetch("/api/gaps").then((r) => {
+    if (r.status === 401) { location.href = "/auth/login"; return null; }
+    return r.json();
+  }).then((data) => { if (data) show(data); });
+}
+</script>
+</body>
+</html>

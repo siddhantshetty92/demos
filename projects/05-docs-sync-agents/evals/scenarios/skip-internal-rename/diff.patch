@@ -1,0 +1,8 @@
+diff --git a/src/schedules.js b/src/schedules.js
+--- a/src/schedules.js
++++ b/src/schedules.js
+@@ -12,7 +12,7 @@
+-function normalizeRows(rows) {
++function toScheduleRows(rows) {
+   return rows.map(trimRow);
+ }

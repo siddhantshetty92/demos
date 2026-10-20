@@ -1,0 +1,11 @@
+id,section,question
+Q1,Security,Is customer data encrypted at rest and in transit?
+Q2,Security,Do you support SAML single sign-on?
+Q3,Security,Do you support SCIM provisioning?
+Q4,Security,Can data be hosted in the EU?
+Q5,Security,How often do you perform penetration tests?
+Q6,Security,Do you keep field-level change history?
+Q7,Product,Does scheduling support seniority-based shift bidding?
+Q8,Product,What forecast intervals are available?
+Q9,Product,Do you offer an on-premise deployment?
+Q10,Operations,What is your uptime commitment?

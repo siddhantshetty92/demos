@@ -1,0 +1,620 @@
+{
+  "description": "Made-up roster and three Sundays of scheduled activity for a target Sunday of 2026-10-25.",
+  "people": [
+    {
+      "id": "agt-101",
+      "name": "Ada Brennan",
+      "site": "Madrid",
+      "tags": [
+        "can-work-next-sunday"
+      ]
+    },
+    {
+      "id": "agt-102",
+      "name": "Bea Okoro",
+      "site": "Valencia",
+      "tags": [
+        "can-work-next-sunday"
+      ]
+    },
+    {
+      "id": "agt-103",
+      "name": "Cy Lindqvist",
+      "site": "Madrid",
+      "tags": [
+        "can-work-next-sunday"
+      ]
+    },
+    {
+      "id": "agt-104",
+      "name": "Dana Ruiz",
+      "site": "Valencia",
+      "tags": [
+        "must-rest-next-sunday",
+        "can-work-next-sunday"
+      ]
+    },
+    {
+      "id": "agt-105",
+      "name": "Eli Haddad",
+      "site": "Madrid",
+      "tags": [
+        "must-rest-next-sunday"
+      ]
+    },
+    {
+      "id": "agt-106",
+      "name": "Fay Moreau",
+      "site": "Valencia",
+      "tags": [
+        "can-work-next-sunday"
+      ]
+    },
+    {
+      "id": "agt-107",
+      "name": "Gus Tanaka",
+      "site": "Madrid",
+      "tags": [
+        "must-rest-next-sunday"
+      ]
+    },
+    {
+      "id": "agt-108",
+      "name": "Hal Petrov",
+      "site": "Valencia",
+      "tags": [
+        "can-work-next-sunday"
+      ]
+    },
+    {
+      "id": "agt-109",
+      "name": "Ivy Mensah",
+      "site": "Madrid",
+      "tags": [
+        "can-work-next-sunday"
+      ]
+    },
+    {
+      "id": "agt-110",
+      "name": "Jon Varga",
+      "site": "Valencia",
+      "tags": [
+        "can-work-next-sunday"
+      ]
+    },
+    {
+      "id": "agt-111",
+      "name": "Kai Duarte",
+      "site": "Madrid",
+      "tags": []
+    },
+    {
+      "id": "agt-112",
+      "name": "Lea Novak",
+      "site": "Valencia",
+      "tags": [
+        "can-work-next-sunday"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "person_id": "agt-101",
+      "start": "2026-10-18T08:00:00+02:00",
+      "end": "2026-10-18T12:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-101",
+      "start": "2026-10-18T12:00:00+02:00",
+      "end": "2026-10-18T13:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-101",
+      "start": "2026-10-18T13:00:00+02:00",
+      "end": "2026-10-18T16:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-101",
+      "start": "2026-10-11T08:00:00+02:00",
+      "end": "2026-10-11T12:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-101",
+      "start": "2026-10-11T12:00:00+02:00",
+      "end": "2026-10-11T13:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-101",
+      "start": "2026-10-11T13:00:00+02:00",
+      "end": "2026-10-11T16:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-101",
+      "start": "2026-10-04T08:00:00+02:00",
+      "end": "2026-10-04T12:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-101",
+      "start": "2026-10-04T12:00:00+02:00",
+      "end": "2026-10-04T13:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-101",
+      "start": "2026-10-04T13:00:00+02:00",
+      "end": "2026-10-04T16:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-102",
+      "start": "2026-10-18T09:00:00+02:00",
+      "end": "2026-10-18T13:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-102",
+      "start": "2026-10-18T13:00:00+02:00",
+      "end": "2026-10-18T14:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-102",
+      "start": "2026-10-18T14:00:00+02:00",
+      "end": "2026-10-18T17:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-102",
+      "start": "2026-10-11T09:00:00+02:00",
+      "end": "2026-10-11T13:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-102",
+      "start": "2026-10-11T13:00:00+02:00",
+      "end": "2026-10-11T14:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-102",
+      "start": "2026-10-11T14:00:00+02:00",
+      "end": "2026-10-11T17:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-103",
+      "start": "2026-10-18T10:00:00+02:00",
+      "end": "2026-10-18T14:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-103",
+      "start": "2026-10-18T14:00:00+02:00",
+      "end": "2026-10-18T15:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-103",
+      "start": "2026-10-18T15:00:00+02:00",
+      "end": "2026-10-18T18:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-103",
+      "start": "2026-10-04T10:00:00+02:00",
+      "end": "2026-10-04T14:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-103",
+      "start": "2026-10-04T14:00:00+02:00",
+      "end": "2026-10-04T15:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-103",
+      "start": "2026-10-04T15:00:00+02:00",
+      "end": "2026-10-04T18:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-104",
+      "start": "2026-10-18T12:00:00+02:00",
+      "end": "2026-10-18T16:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-104",
+      "start": "2026-10-18T16:00:00+02:00",
+      "end": "2026-10-18T17:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-104",
+      "start": "2026-10-18T17:00:00+02:00",
+      "end": "2026-10-18T20:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-104",
+      "start": "2026-10-11T12:00:00+02:00",
+      "end": "2026-10-11T16:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-104",
+      "start": "2026-10-11T16:00:00+02:00",
+      "end": "2026-10-11T17:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-104",
+      "start": "2026-10-11T17:00:00+02:00",
+      "end": "2026-10-11T20:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-104",
+      "start": "2026-10-04T12:00:00+02:00",
+      "end": "2026-10-04T16:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-104",
+      "start": "2026-10-04T16:00:00+02:00",
+      "end": "2026-10-04T17:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-104",
+      "start": "2026-10-04T17:00:00+02:00",
+      "end": "2026-10-04T20:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-106",
+      "start": "2026-10-11T09:00:00+02:00",
+      "end": "2026-10-11T13:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-106",
+      "start": "2026-10-11T13:00:00+02:00",
+      "end": "2026-10-11T14:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-106",
+      "start": "2026-10-11T14:00:00+02:00",
+      "end": "2026-10-11T17:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-106",
+      "start": "2026-10-04T09:00:00+02:00",
+      "end": "2026-10-04T13:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-106",
+      "start": "2026-10-04T13:00:00+02:00",
+      "end": "2026-10-04T14:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-106",
+      "start": "2026-10-04T14:00:00+02:00",
+      "end": "2026-10-04T17:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-107",
+      "start": "2026-10-18T10:00:00+02:00",
+      "end": "2026-10-18T14:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-107",
+      "start": "2026-10-18T14:00:00+02:00",
+      "end": "2026-10-18T15:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-107",
+      "start": "2026-10-18T15:00:00+02:00",
+      "end": "2026-10-18T18:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-107",
+      "start": "2026-10-11T10:00:00+02:00",
+      "end": "2026-10-11T14:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-107",
+      "start": "2026-10-11T14:00:00+02:00",
+      "end": "2026-10-11T15:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-107",
+      "start": "2026-10-11T15:00:00+02:00",
+      "end": "2026-10-11T18:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-107",
+      "start": "2026-10-04T10:00:00+02:00",
+      "end": "2026-10-04T14:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-107",
+      "start": "2026-10-04T14:00:00+02:00",
+      "end": "2026-10-04T15:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-107",
+      "start": "2026-10-04T15:00:00+02:00",
+      "end": "2026-10-04T18:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-108",
+      "start": "2026-10-18T12:00:00+02:00",
+      "end": "2026-10-18T16:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-108",
+      "start": "2026-10-18T16:00:00+02:00",
+      "end": "2026-10-18T17:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-108",
+      "start": "2026-10-18T17:00:00+02:00",
+      "end": "2026-10-18T20:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-109",
+      "start": "2026-10-18T08:00:00+02:00",
+      "end": "2026-10-18T12:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-109",
+      "start": "2026-10-18T12:00:00+02:00",
+      "end": "2026-10-18T13:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-109",
+      "start": "2026-10-18T13:00:00+02:00",
+      "end": "2026-10-18T16:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-109",
+      "start": "2026-10-11T08:00:00+02:00",
+      "end": "2026-10-11T12:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-109",
+      "start": "2026-10-11T12:00:00+02:00",
+      "end": "2026-10-11T13:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-109",
+      "start": "2026-10-11T13:00:00+02:00",
+      "end": "2026-10-11T16:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-109",
+      "start": "2026-10-04T08:00:00+02:00",
+      "end": "2026-10-04T16:00:00+02:00",
+      "activity": "Training",
+      "productive": false
+    },
+    {
+      "person_id": "agt-110",
+      "start": "2026-10-11T09:00:00+02:00",
+      "end": "2026-10-11T13:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-110",
+      "start": "2026-10-11T13:00:00+02:00",
+      "end": "2026-10-11T14:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-110",
+      "start": "2026-10-11T14:00:00+02:00",
+      "end": "2026-10-11T17:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-111",
+      "start": "2026-10-18T10:00:00+02:00",
+      "end": "2026-10-18T14:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-111",
+      "start": "2026-10-18T14:00:00+02:00",
+      "end": "2026-10-18T15:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-111",
+      "start": "2026-10-18T15:00:00+02:00",
+      "end": "2026-10-18T18:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-111",
+      "start": "2026-10-11T10:00:00+02:00",
+      "end": "2026-10-11T14:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-111",
+      "start": "2026-10-11T14:00:00+02:00",
+      "end": "2026-10-11T15:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-111",
+      "start": "2026-10-11T15:00:00+02:00",
+      "end": "2026-10-11T18:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-111",
+      "start": "2026-10-04T10:00:00+02:00",
+      "end": "2026-10-04T14:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-111",
+      "start": "2026-10-04T14:00:00+02:00",
+      "end": "2026-10-04T15:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-111",
+      "start": "2026-10-04T15:00:00+02:00",
+      "end": "2026-10-04T18:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-112",
+      "start": "2026-10-18T12:00:00+02:00",
+      "end": "2026-10-18T16:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-112",
+      "start": "2026-10-18T16:00:00+02:00",
+      "end": "2026-10-18T17:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-112",
+      "start": "2026-10-18T17:00:00+02:00",
+      "end": "2026-10-18T20:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    },
+    {
+      "person_id": "agt-112",
+      "start": "2026-10-10T22:00:00+02:00",
+      "end": "2026-10-10T23:59:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-112",
+      "start": "2026-10-04T12:00:00+02:00",
+      "end": "2026-10-04T16:00:00+02:00",
+      "activity": "Phones",
+      "productive": true
+    },
+    {
+      "person_id": "agt-112",
+      "start": "2026-10-04T16:00:00+02:00",
+      "end": "2026-10-04T17:00:00+02:00",
+      "activity": "Lunch",
+      "productive": false
+    },
+    {
+      "person_id": "agt-112",
+      "start": "2026-10-04T17:00:00+02:00",
+      "end": "2026-10-04T20:00:00+02:00",
+      "activity": "Email",
+      "productive": true
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+id,account,segment,source,created,amount,furthest_stage,stage,loss_reason,closed
+OPP-Q2-0000,Pine Foods,Enterprise,Outbound,2026-06-28,220000,Evaluation,Evaluation,,
+OPP-Q2-0001,Nimbus Health,Mid-Market,Outbound,2026-05-01,100000,Discovery,Discovery,,
+OPP-Q2-0002,Nimbus Labs,SMB,Event,2026-04-30,28000,Discovery,Closed Lost,Champion left,2026-08-31
+OPP-Q2-0003,Alder Retail,Mid-Market,Inbound,2026-06-03,91000,Negotiation,Negotiation,,
+OPP-Q2-0004,Pine Retail,Enterprise,Outbound,2026-04-03,230000,Negotiation,Negotiation,,
+OPP-Q2-0005,Garnet Labs,SMB,Inbound,2026-05-31,27000,Evaluation,Evaluation,,
+OPP-Q2-0006,Ember Foods,Enterprise,Event,2026-05-31,263000,Evaluation,Evaluation,,
+OPP-Q2-0007,Iris Logistics,Mid-Market,Inbound,2026-05-28,73000,Evaluation,Evaluation,,
+OPP-Q2-0008,Quartz Energy,Enterprise,Partner,2026-06-03,91000,Discovery,Discovery,,
+OPP-Q2-0009,Lumen Labs,Mid-Market,Partner,2026-06-19,36000,Evaluation,Closed Lost,Price,2026-08-25
+OPP-Q2-0010,Quartz Energy,Enterprise,Event,2026-04-23,331000,Evaluation,Evaluation,,
+OPP-Q2-0011,Pine Foods,SMB,Event,2026-04-21,29000,Negotiation,Negotiation,,
+OPP-Q2-0012,Pine Logistics,SMB,Partner,2026-05-02,10000,Discovery,Discovery,,
+OPP-Q2-0013,Maple Health,Enterprise,Partner,2026-05-04,294000,Discovery,Discovery,,
+OPP-Q2-0014,Quartz Telecom,SMB,Inbound,2026-04-19,30000,Negotiation,Closed Lost,No decision / timing,2026-08-05
+OPP-Q2-0015,Pine Travel,SMB,Outbound,2026-05-17,25000,Proposal,Closed Lost,Budget,2026-08-24
+OPP-Q2-0016,Iris Labs,Mid-Market,Partner,2026-04-02,61000,Discovery,Discovery,,
+OPP-Q2-0017,Ember Retail,SMB,Inbound,2026-06-14,16000,Evaluation,Closed Lost,Missing feature,2026-07-26
+OPP-Q2-0018,Jasper Retail,Mid-Market,Partner,2026-06-22,67000,Discovery,Discovery,,
+OPP-Q2-0019,Maple Energy,Mid-Market,Inbound,2026-05-12,63000,Proposal,Closed Lost,No decision / timing,2026-09-23
+OPP-Q2-0020,Cobalt Games,Mid-Market,Outbound,2026-04-08,100000,Discovery,Discovery,,
+OPP-Q2-0021,Harbor Games,SMB,Outbound,2026-04-30,12000,Closed Won,Closed Won,,2026-05-30
+OPP-Q2-0022,Tundra Logistics,Mid-Market,Partner,2026-05-08,103000,Negotiation,Closed Lost,Chose competitor,2026-08-10
+OPP-Q2-0023,Kite Energy,Mid-Market,Partner,2026-06-29,84000,Closed Won,Closed Won,,2026-10-10
+OPP-Q2-0024,Cobalt Telecom,Enterprise,Inbound,2026-06-24,398000,Discovery,Discovery,,
+OPP-Q2-0025,Maple Health,SMB,Outbound,2026-06-30,17000,Proposal,Proposal,,
+OPP-Q2-0026,Maple Games,Enterprise,Event,2026-06-24,225000,Evaluation,Evaluation,,
+OPP-Q2-0027,Cobalt Logistics,SMB,Event,2026-05-22,15000,Proposal,Proposal,,
+OPP-Q2-0028,Tundra Labs,Enterprise,Partner,2026-05-18,312000,Evaluation,Closed Lost,Chose competitor,2026-09-17
+OPP-Q2-0029,Alder Retail,SMB,Partner,2026-05-20,13000,Evaluation,Evaluation,,
+OPP-Q2-0030,Quartz Travel,Mid-Market,Event,2026-05-21,93000,Discovery,Discovery,,
+OPP-Q2-0031,Garnet Finance,SMB,Partner,2026-05-30,30000,Closed Won,Closed Won,,2026-08-18
+OPP-Q2-0032,Quartz Travel,SMB,Outbound,2026-06-27,11000,Discovery,Discovery,,
+OPP-Q2-0033,Maple Retail,SMB,Event,2026-06-04,11000,Negotiation,Negotiation,,
+OPP-Q2-0034,Maple Labs,Mid-Market,Partner,2026-05-26,69000,Negotiation,Negotiation,,
+OPP-Q2-0035,Cobalt Foods,Enterprise,Inbound,2026-04-28,101000,Evaluation,Closed Lost,Missing feature,2026-05-25
+OPP-Q2-0036,Delta Travel,Mid-Market,Outbound,2026-05-28,48000,Discovery,Discovery,,
+OPP-Q2-0037,Nimbus Foods,Mid-Market,Inbound,2026-04-01,60000,Discovery,Discovery,,
+OPP-Q2-0038,Sable Telecom,Mid-Market,Inbound,2026-05-24,63000,Negotiation,Negotiation,,
+OPP-Q2-0039,Ember Logistics,SMB,Event,2026-04-10,8000,Negotiation,Closed Lost,Missing feature,2026-05-29
+OPP-Q2-0040,Lumen Travel,Mid-Market,Partner,2026-06-19,72000,Proposal,Closed Lost,No decision / timing,2026-08-02
+OPP-Q2-0041,Garnet Finance,Enterprise,Partner,2026-04-10,297000,Discovery,Discovery,,
+OPP-Q2-0042,Maple Retail,Mid-Market,Inbound,2026-04-21,29000,Proposal,Proposal,,
+OPP-Q2-0043,Quartz Games,Enterprise,Inbound,2026-05-16,257000,Proposal,Proposal,,
+OPP-Q2-0044,Ridge Retail,Mid-Market,Inbound,2026-04-29,45000,Discovery,Discovery,,
+OPP-Q2-0045,Birch Energy,SMB,Inbound,2026-06-03,17000,Negotiation,Closed Lost,No decision / timing,2026-08-02
+OPP-Q2-0046,Fjord Labs,Mid-Market,Partner,2026-05-30,114000,Closed Won,Closed Won,,2026-08-08
+OPP-Q2-0047,Ridge Foods,Mid-Market,Event,2026-05-19,86000,Discovery,Discovery,,
+OPP-Q2-0048,Cobalt Energy,Mid-Market,Event,2026-06-05,78000,Proposal,Closed Lost,Price,2026-08-15
+OPP-Q2-0049,Alder Games,Mid-Market,Inbound,2026-06-25,102000,Evaluation,Evaluation,,
+OPP-Q2-0050,Lumen Foods,SMB,Partner,2026-04-27,24000,Evaluation,Evaluation,,
+OPP-Q2-0051,Pine Energy,Enterprise,Outbound,2026-05-01,295000,Negotiation,Negotiation,,
+OPP-Q2-0052,Birch Foods,Mid-Market,Event,2026-05-26,104000,Evaluation,Evaluation,,
+OPP-Q2-0053,Maple Retail,Mid-Market,Event,2026-05-14,81000,Discovery,Closed Lost,Missing feature,2026-06-28
+OPP-Q2-0054,Ridge Telecom,SMB,Inbound,2026-06-14,13000,Negotiation,Negotiation,,
+OPP-Q2-0055,Onyx Labs,Enterprise,Inbound,2026-04-17,245000,Proposal,Proposal,,
+OPP-Q2-0056,Delta Energy,SMB,Partner,2026-04-14,15000,Evaluation,Evaluation,,
+OPP-Q2-0057,Iris Health,SMB,Partner,2026-04-10,24000,Evaluation,Evaluation,,
+OPP-Q2-0058,Garnet Logistics,SMB,Partner,2026-06-05,11000,Proposal,Proposal,,
+OPP-Q2-0059,Birch Travel,SMB,Event,2026-06-06,15000,Discovery,Discovery,,
+OPP-Q2-0060,Tundra Telecom,Enterprise,Event,2026-06-17,293000,Discovery,Discovery,,
+OPP-Q2-0061,Lumen Retail,Mid-Market,Partner,2026-06-10,61000,Negotiation,Negotiation,,
+OPP-Q2-0062,Harbor Telecom,Mid-Market,Outbound,2026-05-27,85000,Proposal,Proposal,,
+OPP-Q2-0063,Cobalt Finance,Enterprise,Event,2026-06-22,368000,Negotiation,Negotiation,,
+OPP-Q2-0064,Garnet Logistics,Enterprise,Event,2026-04-02,338000,Evaluation,Evaluation,,
+OPP-Q2-0065,Ridge Health,Mid-Market,Outbound,2026-04-20,26000,Discovery,Discovery,,
+OPP-Q2-0066,Garnet Foods,Mid-Market,Inbound,2026-04-15,85000,Discovery,Discovery,,
+OPP-Q2-0067,Nimbus Labs,Enterprise,Inbound,2026-05-02,158000,Negotiation,Negotiation,,
+OPP-Q2-0068,Pine Logistics,Mid-Market,Event,2026-05-11,102000,Proposal,Closed Lost,Budget,2026-08-17
+OPP-Q2-0069,Iris Telecom,Mid-Market,Partner,2026-04-24,29000,Negotiation,Negotiation,,
+OPP-Q2-0070,Iris Games,Mid-Market,Partner,2026-04-21,52000,Evaluation,Evaluation,,
+OPP-Q2-0071,Ember Retail,Enterprise,Partner,2026-05-07,271000,Proposal,Proposal,,
+OPP-Q2-0072,Nimbus Foods,Mid-Market,Inbound,2026-04-15,51000,Proposal,Closed Lost,No decision / timing,2026-08-13
+OPP-Q2-0073,Jasper Labs,Mid-Market,Partner,2026-06-11,109000,Closed Won,Closed Won,,2026-09-24
+OPP-Q2-0074,Garnet Retail,Mid-Market,Partner,2026-04-03,65000,Evaluation,Evaluation,,
+OPP-Q2-0075,Quartz Games,Enterprise,Outbound,2026-04-30,354000,Closed Won,Closed Won,,2026-07-09
+OPP-Q2-0076,Ember Finance,Mid-Market,Partner,2026-06-16,110000,Discovery,Discovery,,
+OPP-Q2-0077,Birch Energy,SMB,Partner,2026-06-23,9000,Evaluation,Closed Lost,Missing feature,2026-07-28
+OPP-Q2-0078,Iris Energy,Mid-Market,Outbound,2026-04-22,94000,Discovery,Discovery,,
+OPP-Q2-0079,Quartz Energy,SMB,Outbound,2026-04-04,27000,Proposal,Closed Lost,Chose competitor,2026-07-27
+OPP-Q2-0080,Alder Health,Mid-Market,Outbound,2026-06-24,113000,Negotiation,Negotiation,,
+OPP-Q2-0081,Quartz Labs,Mid-Market,Partner,2026-05-31,30000,Negotiation,Negotiation,,
+OPP-Q2-0082,Delta Travel,SMB,Partner,2026-05-08,16000,Evaluation,Evaluation,,
+OPP-Q2-0083,Kite Travel,Enterprise,Partner,2026-05-23,349000,Closed Won,Closed Won,,2026-09-05
+OPP-Q2-0084,Fjord Health,Enterprise,Partner,2026-05-15,292000,Negotiation,Negotiation,,
+OPP-Q2-0085,Lumen Energy,SMB,Inbound,2026-04-21,6000,Evaluation,Evaluation,,
+OPP-Q2-0086,Ember Finance,Enterprise,Outbound,2026-04-04,144000,Negotiation,Negotiation,,
+OPP-Q2-0087,Kite Energy,Mid-Market,Event,2026-04-26,34000,Closed Won,Closed Won,,2026-06-22
+OPP-Q2-0088,Harbor Travel,Mid-Market,Event,2026-05-08,96000,Closed Won,Closed Won,,2026-07-13
+OPP-Q2-0089,Onyx Telecom,SMB,Outbound,2026-04-25,30000,Discovery,Discovery,,
+OPP-Q2-0090,Pine Health,Mid-Market,Event,2026-06-18,67000,Discovery,Discovery,,
+OPP-Q2-0091,Alder Travel,SMB,Outbound,2026-04-22,26000,Proposal,Closed Lost,No decision / timing,2026-08-23
+OPP-Q2-0092,Lumen Labs,Enterprise,Event,2026-04-09,360000,Proposal,Closed Lost,No decision / timing,2026-06-25
+OPP-Q2-0093,Harbor Travel,Mid-Market,Inbound,2026-05-04,43000,Evaluation,Evaluation,,
+OPP-Q2-0094,Iris Finance,SMB,Event,2026-04-19,10000,Proposal,Proposal,,
+OPP-Q2-0095,Garnet Energy,Mid-Market,Event,2026-04-15,60000,Proposal,Proposal,,
+OPP-Q2-0096,Iris Energy,Mid-Market,Partner,2026-05-08,74000,Evaluation,Evaluation,,
+OPP-Q2-0097,Iris Energy,Mid-Market,Outbound,2026-06-15,96000,Negotiation,Negotiation,,
+OPP-Q2-0098,Fjord Travel,SMB,Event,2026-06-07,29000,Discovery,Discovery,,
+OPP-Q2-0099,Tundra Health,Mid-Market,Partner,2026-06-08,51000,Proposal,Proposal,,
+OPP-Q2-0100,Quartz Foods,Mid-Market,Outbound,2026-04-09,44000,Negotiation,Negotiation,,
+OPP-Q2-0101,Fjord Games,SMB,Outbound,2026-06-29,16000,Negotiation,Negotiation,,
+OPP-Q2-0102,Iris Games,Enterprise,Event,2026-05-08,390000,Proposal,Proposal,,
+OPP-Q2-0103,Kite Foods,Mid-Market,Event,2026-04-30,31000,Evaluation,Evaluation,,
+OPP-Q2-0104,Delta Finance,Mid-Market,Outbound,2026-05-04,90000,Closed Won,Closed Won,,2026-06-21
+OPP-Q2-0105,Tundra Health,Enterprise,Inbound,2026-06-14,144000,Negotiation,Negotiation,,
+OPP-Q2-0106,Maple Travel,SMB,Event,2026-06-26,18000,Proposal,Closed Lost,No decision / timing,2026-09-09
+OPP-Q2-0107,Onyx Retail,SMB,Event,2026-04-19,10000,Negotiation,Negotiation,,
+OPP-Q2-0108,Fjord Health,SMB,Inbound,2026-05-20,14000,Closed Won,Closed Won,,2026-08-18
+OPP-Q2-0109,Ridge Games,SMB,Event,2026-04-06,9000,Evaluation,Evaluation,,
+OPP-Q2-0110,Lumen Foods,Mid-Market,Event,2026-05-22,30000,Discovery,Closed Lost,Chose competitor,2026-07-04
+OPP-Q2-0111,Jasper Labs,SMB,Inbound,2026-05-29,16000,Negotiation,Negotiation,,
+OPP-Q2-0112,Pine Travel,Mid-Market,Partner,2026-06-22,111000,Proposal,Closed Lost,Chose competitor,2026-08-16
+OPP-Q2-0113,Garnet Finance,Mid-Market,Partner,2026-04-30,99000,Negotiation,Closed Lost,Budget,2026-07-07
+OPP-Q2-0114,Iris Health,Mid-Market,Inbound,2026-05-07,90000,Discovery,Discovery,,
+OPP-Q2-0115,Quartz Travel,SMB,Inbound,2026-06-23,17000,Proposal,Closed Lost,Budget,2026-08-16
+OPP-Q2-0116,Maple Foods,Enterprise,Event,2026-06-09,322000,Discovery,Discovery,,
+OPP-Q2-0117,Maple Telecom,Mid-Market,Outbound,2026-06-06,96000,Discovery,Discovery,,
+OPP-Q2-0118,Garnet Logistics,Mid-Market,Partner,2026-04-30,47000,Closed Won,Closed Won,,2026-08-16
+OPP-Q2-0119,Maple Travel,Mid-Market,Inbound,2026-06-16,91000,Discovery,Discovery,,
+OPP-Q2-0120,Harbor Telecom,SMB,Event,2026-05-05,27000,Closed Won,Closed Won,,2026-09-03
+OPP-Q2-0121,Alder Logistics,Mid-Market,Outbound,2026-04-08,61000,Proposal,Proposal,,
+OPP-Q2-0122,Onyx Health,Enterprise,Partner,2026-06-02,261000,Negotiation,Negotiation,,
+OPP-Q2-0123,Birch Retail,SMB,Outbound,2026-06-27,7000,Negotiation,Negotiation,,
+OPP-Q2-0124,Harbor Logistics,Mid-Market,Inbound,2026-05-04,74000,Discovery,Discovery,,
+OPP-Q2-0125,Maple Telecom,Mid-Market,Event,2026-06-28,86000,Discovery,Discovery,,
+OPP-Q2-0126,Kite Energy,SMB,Inbound,2026-05-03,8000,Discovery,Closed Lost,Budget,2026-08-04
+OPP-Q2-0127,Alder Foods,Mid-Market,Inbound,2026-06-22,85000,Evaluation,Evaluation,,
+OPP-Q2-0128,Birch Retail,Mid-Market,Outbound,2026-05-04,114000,Discovery,Discovery,,
+OPP-Q2-0129,Pine Finance,Mid-Market,Inbound,2026-06-21,85000,Evaluation,Evaluation,,
+OPP-Q2-0130,Iris Travel,SMB,Partner,2026-04-17,22000,Evaluation,Evaluation,,
+OPP-Q2-0131,Kite Foods,Mid-Market,Inbound,2026-04-27,107000,Negotiation,Negotiation,,
+OPP-Q2-0132,Nimbus Energy,SMB,Partner,2026-05-05,12000,Evaluation,Evaluation,,
+OPP-Q2-0133,Onyx Retail,Mid-Market,Event,2026-06-10,26000,Negotiation,Negotiation,,
+OPP-Q2-0134,Nimbus Games,SMB,Outbound,2026-05-29,26000,Discovery,Discovery,,
+OPP-Q2-0135,Ridge Foods,Enterprise,Event,2026-06-06,259000,Evaluation,Evaluation,,
+OPP-Q2-0136,Harbor Travel,Mid-Market,Event,2026-05-25,114000,Evaluation,Evaluation,,
+OPP-Q2-0137,Lumen Telecom,SMB,Outbound,2026-04-24,8000,Evaluation,Evaluation,,
+OPP-Q2-0138,Quartz Retail,SMB,Outbound,2026-05-26,15000,Closed Won,Closed Won,,2026-09-11
+OPP-Q2-0139,Lumen Retail,SMB,Event,2026-06-02,27000,Discovery,Discovery,,
+OPP-Q2-0140,Garnet Games,SMB,Partner,2026-05-08,19000,Proposal,Closed Lost,Champion left,2026-06-12
+OPP-Q2-0141,Ridge Finance,SMB,Inbound,2026-06-06,7000,Evaluation,Evaluation,,
+OPP-Q2-0142,Fjord Health,Enterprise,Inbound,2026-04-01,210000,Proposal,Proposal,,
+OPP-Q2-0143,Maple Retail,Mid-Market,Outbound,2026-06-28,89000,Proposal,Proposal,,
+OPP-Q2-0144,Ember Telecom,Enterprise,Event,2026-04-03,266000,Negotiation,Closed Lost,Budget,2026-05-02
+OPP-Q2-0145,Ember Energy,Mid-Market,Partner,2026-06-23,106000,Proposal,Closed Lost,Missing feature,2026-08-31
+OPP-Q2-0146,Maple Health,SMB,Partner,2026-06-05,8000,Discovery,Discovery,,
+OPP-Q2-0147,Nimbus Energy,SMB,Inbound,2026-06-09,17000,Evaluation,Evaluation,,
+OPP-Q2-0148,Ridge Finance,Enterprise,Event,2026-06-01,288000,Proposal,Proposal,,
+OPP-Q2-0149,Harbor Telecom,SMB,Partner,2026-06-08,28000,Negotiation,Negotiation,,
+OPP-Q3-0000,Ember Finance,SMB,Event,2026-07-13,26000,Evaluation,Evaluation,,
+OPP-Q3-0001,Ember Finance,Enterprise,Inbound,2026-09-27,294000,Negotiation,Negotiation,,
+OPP-Q3-0002,Iris Telecom,Enterprise,Outbound,2026-07-24,130000,Discovery,Closed Lost,Chose competitor,2026-09-02
+OPP-Q3-0003,Iris Health,SMB,Outbound,2026-08-16,8000,Discovery,Discovery,,
+OPP-Q3-0004,Cobalt Travel,Mid-Market,Outbound,2026-09-15,73000,Negotiation,Negotiation,,
+OPP-Q3-0005,Iris Foods,Mid-Market,Partner,2026-07-20,66000,Proposal,Proposal,,
+OPP-Q3-0006,Harbor Health,Enterprise,Event,2026-09-17,209000,Proposal,Proposal,,
+OPP-Q3-0007,Jasper Labs,Mid-Market,Inbound,2026-08-28,37000,Negotiation,Negotiation,,
+OPP-Q3-0008,Tundra Finance,Mid-Market,Inbound,2026-07-25,89000,Closed Won,Closed Won,,2026-08-19
+OPP-Q3-0009,Quartz Health,SMB,Outbound,2026-07-13,19000,Evaluation,Evaluation,,
+OPP-Q3-0010,Onyx Retail,Mid-Market,Event,2026-09-16,101000,Discovery,Discovery,,
+OPP-Q3-0011,Ember Travel,Enterprise,Outbound,2026-08-01,250000,Negotiation,Negotiation,,
+OPP-Q3-0012,Lumen Retail,SMB,Event,2026-07-18,26000,Discovery,Discovery,,
+OPP-Q3-0013,Nimbus Labs,SMB,Inbound,2026-09-01,28000,Negotiation,Negotiation,,
+OPP-Q3-0014,Sable Labs,Mid-Market,Event,2026-08-15,40000,Proposal,Proposal,,
+OPP-Q3-0015,Quartz Retail,Enterprise,Inbound,2026-08-17,102000,Discovery,Discovery,,
+OPP-Q3-0016,Ridge Retail,SMB,Outbound,2026-07-24,13000,Evaluation,Evaluation,,
+OPP-Q3-0017,Tundra Games,SMB,Event,2026-09-08,13000,Evaluation,Closed Lost,No decision / timing,2026-10-06
+OPP-Q3-0018,Quartz Telecom,SMB,Event,2026-08-07,9000,Evaluation,Evaluation,,
+OPP-Q3-0019,Ember Health,SMB,Inbound,2026-08-21,11000,Discovery,Discovery,,
+OPP-Q3-0020,Maple Games,Mid-Market,Outbound,2026-08-28,87000,Negotiation,Negotiation,,
+OPP-Q3-0021,Cobalt Labs,Enterprise,Outbound,2026-09-18,123000,Discovery,Discovery,,
+OPP-Q3-0022,Nimbus Energy,Mid-Market,Event,2026-08-01,46000,Discovery,Discovery,,
+OPP-Q3-0023,Ridge Health,Mid-Market,Event,2026-08-01,56000,Evaluation,Closed Lost,Missing feature,2026-09-14
+OPP-Q3-0024,Onyx Health,SMB,Inbound,2026-07-02,19000,Closed Won,Closed Won,,2026-09-27
+OPP-Q3-0025,Delta Energy,SMB,Outbound,2026-07-07,29000,Discovery,Discovery,,
+OPP-Q3-0026,Pine Energy,SMB,Outbound,2026-09-05,26000,Evaluation,Evaluation,,
+OPP-Q3-0027,Tundra Telecom,SMB,Event,2026-07-01,20000,Proposal,Proposal,,
+OPP-Q3-0028,Kite Travel,SMB,Event,2026-09-25,27000,Negotiation,Negotiation,,
+OPP-Q3-0029,Sable Finance,Mid-Market,Inbound,2026-09-11,78000,Negotiation,Negotiation,,
+OPP-Q3-0030,Delta Health,SMB,Event,2026-08-09,10000,Evaluation,Evaluation,,
+OPP-Q3-0031,Sable Logistics,SMB,Outbound,2026-07-31,21000,Proposal,Proposal,,
+OPP-Q3-0032,Pine Finance,Enterprise,Event,2026-08-18,97000,Negotiation,Negotiation,,
+OPP-Q3-0033,Quartz Travel,SMB,Inbound,2026-08-23,10000,Discovery,Discovery,,
+OPP-Q3-0034,Delta Energy,SMB,Inbound,2026-08-20,26000,Evaluation,Evaluation,,
+OPP-Q3-0035,Cobalt Health,SMB,Partner,2026-07-07,7000,Proposal,Proposal,,
+OPP-Q3-0036,Fjord Foods,SMB,Inbound,2026-09-28,23000,Evaluation,Evaluation,,
+OPP-Q3-0037,Birch Telecom,Mid-Market,Inbound,2026-07-24,114000,Discovery,Discovery,,
+OPP-Q3-0038,Pine Retail,Enterprise,Outbound,2026-07-13,178000,Negotiation,Negotiation,,
+OPP-Q3-0039,Ridge Games,SMB,Partner,2026-09-18,25000,Negotiation,Negotiation,,
+OPP-Q3-0040,Jasper Telecom,Enterprise,Outbound,2026-07-08,110000,Closed Won,Closed Won,,2026-09-26
+OPP-Q3-0041,Onyx Retail,Mid-Market,Partner,2026-09-17,40000,Proposal,Proposal,,
+OPP-Q3-0042,Tundra Telecom,Mid-Market,Event,2026-08-29,55000,Negotiation,Negotiation,,
+OPP-Q3-0043,Tundra Finance,SMB,Outbound,2026-07-15,29000,Closed Won,Closed Won,,2026-08-20
+OPP-Q3-0044,Cobalt Retail,SMB,Outbound,2026-09-21,19000,Negotiation,Negotiation,,
+OPP-Q3-0045,Kite Health,SMB,Inbound,2026-08-14,29000,Discovery,Discovery,,
+OPP-Q3-0046,Ember Logistics,SMB,Inbound,2026-09-20,20000,Evaluation,Evaluation,,
+OPP-Q3-0047,Nimbus Telecom,Mid-Market,Partner,2026-09-16,58000,Negotiation,Negotiation,,
+OPP-Q3-0048,Delta Retail,Enterprise,Outbound,2026-08-04,267000,Negotiation,Negotiation,,
+OPP-Q3-0049,Maple Telecom,Mid-Market,Partner,2026-07-25,67000,Discovery,Discovery,,
+OPP-Q3-0050,Tundra Health,Mid-Market,Partner,2026-07-17,78000,Negotiation,Negotiation,,
+OPP-Q3-0051,Ridge Labs,Mid-Market,Outbound,2026-09-13,65000,Proposal,Proposal,,
+OPP-Q3-0052,Harbor Energy,Enterprise,Outbound,2026-07-31,110000,Proposal,Proposal,,
+OPP-Q3-0053,Cobalt Logistics,Mid-Market,Outbound,2026-09-28,95000,Negotiation,Negotiation,,
+OPP-Q3-0054,Maple Energy,SMB,Partner,2026-08-27,10000,Negotiation,Negotiation,,
+OPP-Q3-0055,Nimbus Travel,Mid-Market,Partner,2026-07-30,78000,Discovery,Discovery,,
+OPP-Q3-0056,Delta Health,SMB,Partner,2026-07-26,13000,Discovery,Closed Lost,No decision / timing,2026-10-15
+OPP-Q3-0057,Ridge Labs,SMB,Outbound,2026-08-22,23000,Negotiation,Negotiation,,
+OPP-Q3-0058,Sable Travel,Mid-Market,Inbound,2026-08-02,93000,Discovery,Discovery,,
+OPP-Q3-0059,Sable Foods,SMB,Inbound,2026-09-06,24000,Discovery,Discovery,,
+OPP-Q3-0060,Sable Retail,Mid-Market,Inbound,2026-09-17,97000,Negotiation,Negotiation,,
+OPP-Q3-0061,Nimbus Retail,Enterprise,Partner,2026-09-28,371000,Negotiation,Negotiation,,
+OPP-Q3-0062,Onyx Foods,Mid-Market,Event,2026-07-07,92000,Proposal,Closed Lost,No decision / timing,2026-08-11
+OPP-Q3-0063,Fjord Logistics,SMB,Partner,2026-08-21,25000,Proposal,Proposal,,
+OPP-Q3-0064,Fjord Games,Mid-Market,Outbound,2026-07-25,82000,Proposal,Proposal,,
+OPP-Q3-0065,Tundra Telecom,SMB,Outbound,2026-08-09,25000,Negotiation,Negotiation,,
+OPP-Q3-0066,Onyx Finance,Enterprise,Partner,2026-08-10,267000,Discovery,Discovery,,
+OPP-Q3-0067,Iris Retail,SMB,Partner,2026-07-08,30000,Proposal,Closed Lost,Chose competitor,2026-09-19
+OPP-Q3-0068,Ember Energy,Mid-Market,Partner,2026-08-31,36000,Discovery,Discovery,,
+OPP-Q3-0069,Onyx Foods,Enterprise,Outbound,2026-07-09,235000,Proposal,Closed Lost,Price,2026-08-12
+OPP-Q3-0070,Jasper Games,Enterprise,Event,2026-09-03,158000,Discovery,Discovery,,
+OPP-Q3-0071,Ridge Energy,SMB,Event,2026-08-01,10000,Negotiation,Negotiation,,
+OPP-Q3-0072,Quartz Labs,SMB,Outbound,2026-07-24,28000,Proposal,Proposal,,
+OPP-Q3-0073,Birch Logistics,SMB,Partner,2026-08-26,12000,Evaluation,Evaluation,,
+OPP-Q3-0074,Iris Finance,SMB,Outbound,2026-08-28,20000,Evaluation,Evaluation,,
+OPP-Q3-0075,Cobalt Games,Mid-Market,Inbound,2026-07-20,38000,Discovery,Discovery,,
+OPP-Q3-0076,Alder Travel,Mid-Market,Inbound,2026-07-26,98000,Negotiation,Negotiation,,
+OPP-Q3-0077,Kite Finance,SMB,Inbound,2026-07-12,29000,Evaluation,Evaluation,,
+OPP-Q3-0078,Jasper Energy,SMB,Outbound,2026-07-14,27000,Evaluation,Evaluation,,
+OPP-Q3-0079,Tundra Labs,Mid-Market,Outbound,2026-07-07,107000,Negotiation,Negotiation,,
+OPP-Q3-0080,Kite Energy,Mid-Market,Outbound,2026-08-06,51000,Discovery,Discovery,,
+OPP-Q3-0081,Lumen Travel,Mid-Market,Outbound,2026-08-16,110000,Discovery,Discovery,,
+OPP-Q3-0082,Fjord Health,Mid-Market,Partner,2026-08-06,107000,Negotiation,Negotiation,,
+OPP-Q3-0083,Maple Games,Mid-Market,Partner,2026-08-30,89000,Proposal,Proposal,,
+OPP-Q3-0084,Birch Foods,Mid-Market,Inbound,2026-08-26,102000,Proposal,Proposal,,
+OPP-Q3-0085,Birch Health,SMB,Outbound,2026-09-26,11000,Discovery,Discovery,,
+OPP-Q3-0086,Harbor Finance,SMB,Partner,2026-07-31,26000,Discovery,Discovery,,
+OPP-Q3-0087,Sable Telecom,SMB,Event,2026-07-08,12000,Negotiation,Negotiation,,
+OPP-Q3-0088,Alder Games,Enterprise,Outbound,2026-07-13,256000,Evaluation,Evaluation,,
+OPP-Q3-0089,Sable Labs,SMB,Event,2026-08-23,23000,Proposal,Proposal,,
+OPP-Q3-0090,Nimbus Health,SMB,Event,2026-09-21,26000,Negotiation,Negotiation,,
+OPP-Q3-0091,Pine Travel,SMB,Outbound,2026-07-17,12000,Discovery,Discovery,,
+OPP-Q3-0092,Sable Foods,Mid-Market,Inbound,2026-07-30,32000,Discovery,Discovery,,
+OPP-Q3-0093,Lumen Health,Enterprise,Partner,2026-09-18,220000,Negotiation,Negotiation,,
+OPP-Q3-0094,Alder Retail,Mid-Market,Outbound,2026-07-20,104000,Evaluation,Evaluation,,
+OPP-Q3-0095,Fjord Health,Enterprise,Outbound,2026-09-11,174000,Negotiation,Negotiation,,
+OPP-Q3-0096,Quartz Foods,Enterprise,Outbound,2026-07-11,257000,Negotiation,Negotiation,,
+OPP-Q3-0097,Cobalt Energy,Mid-Market,Inbound,2026-09-04,45000,Negotiation,Negotiation,,
+OPP-Q3-0098,Ridge Games,SMB,Outbound,2026-08-10,24000,Proposal,Proposal,,
+OPP-Q3-0099,Birch Health,Mid-Market,Event,2026-08-16,35000,Negotiation,Negotiation,,
+OPP-Q3-0100,Onyx Retail,Mid-Market,Event,2026-08-14,40000,Discovery,Discovery,,
+OPP-Q3-0101,Iris Games,SMB,Event,2026-07-15,24000,Evaluation,Evaluation,,
+OPP-Q3-0102,Pine Energy,Mid-Market,Partner,2026-09-19,93000,Evaluation,Evaluation,,
+OPP-Q3-0103,Garnet Health,Enterprise,Outbound,2026-09-02,145000,Evaluation,Evaluation,,
+OPP-Q3-0104,Ridge Foods,SMB,Inbound,2026-08-21,24000,Proposal,Proposal,,
+OPP-Q3-0105,Tundra Finance,SMB,Inbound,2026-07-02,11000,Negotiation,Negotiation,,
+OPP-Q3-0106,Ember Games,SMB,Event,2026-07-06,17000,Discovery,Closed Lost,Budget,2026-09-12
+OPP-Q3-0107,Kite Finance,Enterprise,Event,2026-08-29,176000,Evaluation,Evaluation,,
+OPP-Q3-0108,Lumen Energy,Mid-Market,Inbound,2026-08-07,39000,Discovery,Discovery,,
+OPP-Q3-0109,Kite Labs,Mid-Market,Partner,2026-09-23,91000,Negotiation,Negotiation,,
+OPP-Q3-0110,Onyx Finance,SMB,Partner,2026-07-14,19000,Discovery,Discovery,,
+OPP-Q3-0111,Fjord Energy,SMB,Outbound,2026-08-09,29000,Discovery,Discovery,,
+OPP-Q3-0112,Nimbus Labs,SMB,Partner,2026-08-25,14000,Negotiation,Negotiation,,
+OPP-Q3-0113,Quartz Labs,SMB,Inbound,2026-09-26,18000,Proposal,Proposal,,
+OPP-Q3-0114,Tundra Foods,SMB,Inbound,2026-08-17,11000,Evaluation,Evaluation,,
+OPP-Q3-0115,Kite Logistics,SMB,Event,2026-08-08,22000,Proposal,Proposal,,
+OPP-Q3-0116,Delta Foods,SMB,Outbound,2026-07-05,8000,Proposal,Proposal,,
+OPP-Q3-0117,Jasper Travel,SMB,Outbound,2026-07-04,19000,Negotiation,Negotiation,,
+OPP-Q3-0118,Kite Travel,Enterprise,Inbound,2026-07-25,260000,Discovery,Discovery,,
+OPP-Q3-0119,Sable Energy,SMB,Outbound,2026-07-04,27000,Discovery,Discovery,,
+OPP-Q3-0120,Cobalt Retail,SMB,Event,2026-07-19,9000,Evaluation,Closed Lost,Missing feature,2026-10-12
+OPP-Q3-0121,Iris Foods,Enterprise,Inbound,2026-08-14,115000,Evaluation,Closed Lost,Missing feature,2026-10-13
+OPP-Q3-0122,Alder Telecom,Mid-Market,Inbound,2026-07-08,92000,Evaluation,Closed Lost,Champion left,2026-09-09
+OPP-Q3-0123,Jasper Retail,SMB,Inbound,2026-09-12,9000,Proposal,Proposal,,
+OPP-Q3-0124,Garnet Labs,Mid-Market,Inbound,2026-09-05,72000,Negotiation,Negotiation,,
+OPP-Q3-0125,Onyx Foods,SMB,Partner,2026-08-21,28000,Discovery,Discovery,,
+OPP-Q3-0126,Delta Foods,Mid-Market,Partner,2026-08-23,25000,Negotiation,Negotiation,,
+OPP-Q3-0127,Cobalt Health,SMB,Inbound,2026-07-19,15000,Negotiation,Negotiation,,

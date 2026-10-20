@@ -1,0 +1,7 @@
+diff --git a/src/server.js b/src/server.js
+--- a/src/server.js
++++ b/src/server.js
+@@ -40,6 +40,10 @@
++app.get("/v1/shifts/:id/history", async (req, reply) => {
++  return listShiftHistory(req.params.id);
++});

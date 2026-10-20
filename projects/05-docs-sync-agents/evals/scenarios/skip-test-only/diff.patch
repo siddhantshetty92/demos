@@ -1,0 +1,10 @@
+diff --git a/test/server.test.js b/test/server.test.js
+--- a/test/server.test.js
++++ b/test/server.test.js
+@@ -30,6 +30,12 @@
++test("unknown shift returns 404", async () => {
++  const app = buildTestApp();
++  app.get("/v1/shifts/:id", stubHandler);
++  const res = await app.inject({ method: "GET", url: "/v1/shifts/missing" });
++  assert.equal(res.statusCode, 404);
++});

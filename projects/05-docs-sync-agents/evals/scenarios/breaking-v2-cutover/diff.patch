@@ -1,0 +1,10 @@
+diff --git a/src/server.js b/src/server.js
+--- a/src/server.js
++++ b/src/server.js
+@@ -55,6 +55,14 @@
++app.post("/v2/schedules/:id/publish", async (req, reply) => {
++  return publishScheduleV2(req.params.id, { assignees: req.body.assignees });
++});
++app.addHook("onSend", async (req, reply) => {
++  if (req.url.startsWith("/v1/schedules")) reply.header("Sunset", "2027-03-31");
++});

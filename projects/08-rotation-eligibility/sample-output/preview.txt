@@ -1,0 +1,19 @@
+Target Sunday 2026-10-25; checking 2026-10-18, 2026-10-11, 2026-10-04
+
+MUST REST (4)
+  Ada Brennan  WWW   +must-rest-next-sunday -can-work-next-sunday
+  Dana Ruiz    WWW   -can-work-next-sunday
+  Gus Tanaka   WWW   no change
+  Kai Duarte   WWW   +must-rest-next-sunday
+
+CAN WORK (8)
+  Bea Okoro    WW-   no change
+  Cy Lindqvist W-W   no change
+  Eli Haddad   ---   +can-work-next-sunday -must-rest-next-sunday
+  Fay Moreau   -WW   no change
+  Hal Petrov   W--   no change
+  Ivy Mensah   WW-   no change
+  Jon Varga    -W-   no change
+  Lea Novak    W-W   no change
+
+4 people would change (preview only; pass --apply to write)

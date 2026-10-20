@@ -1,0 +1,96 @@
+imported_id,first_name,last_name,email,team,site,queues,skills
+AGT-00001,Uma,Dube,uma.dube.1@acmemobile.example.com,Billing,Manila,"[""Billing Phone""]","[[""Billing Specialist"", 2]]"
+AGT-00002,Vik,Silva,vik.silva.2@acmemobile.example.com,Billing,Lisbon,"[""Billing Phone""]","[[""Billing Specialist"", 3], [""Spanish"", 2]]"
+AGT-00003,Ava,Silva,ava.silva.3@acmemobile.example.com,Billing,Austin,"[""Billing Phone""]","[[""Billing Specialist"", 3]]"
+AGT-00004,Sana,Ivanova,sana.ivanova.4@acmemobile.example.com,Billing,Manila,"[""Billing Phone""]","[[""Spanish"", 4]]"
+AGT-00005,Kaia,Ivanova,kaia.ivanova.5@acmemobile.example.com,Billing,Lisbon,"[""Billing Phone""]","[[""Billing Specialist"", 5], [""Device Repair"", 1]]"
+AGT-00006,Luca,Varga,luca.varga.6@acmemobile.example.com,Billing,Austin,"[""Billing Phone""]","[[""Spanish"", 3]]"
+AGT-00007,Mina,Costa,mina.costa.7@acmemobile.example.com,Billing,Manila,"[""Billing Phone""]",[]
+AGT-00008,Luca,Tanaka,luca.tanaka.8@acmemobile.example.com,Billing,Lisbon,"[""Billing Phone""]","[[""Billing Specialist"", 1]]"
+AGT-00009,Chloe,Haddad,chloe.haddad.9@acmemobile.example.com,Billing,Austin,"[""Billing Phone""]",[]
+AGT-00010,Luca,Fujita,luca.fujita.10@acmemobile.example.com,Billing,Manila,"[""Billing Phone""]",[]
+AGT-00011,Vik,Costa,vik.costa.11@acmemobile.example.com,Billing,Lisbon,"[""Billing Phone""]","[[""Spanish"", 4]]"
+AGT-00012,Mina,Ivanova,mina.ivanova.12@acmemobile.example.com,Billing,Austin,"[""Billing Phone""]",[]
+AGT-00013,Vik,Kim,vik.kim.13@acmemobile.example.com,Billing,Manila,"[""Billing Phone""]",[]
+AGT-00014,Ben,Kim,ben.kim.14@acmemobile.example.com,Billing,Lisbon,"[""Billing Phone""]","[[""Spanish"", 5]]"
+AGT-00015,Wen,Kim,wen.kim.15@acmemobile.example.com,Billing,Austin,"[""Billing Phone""]","[[""Billing Specialist"", 3]]"
+AGT-00016,Elif,Ivanova,elif.ivanova.16@acmemobile.example.com,Billing,Manila,"[""Billing Phone""]","[[""Billing Specialist"", 4]]"
+AGT-00017,Nils,Tanaka,nils.tanaka.17@acmemobile.example.com,Billing,Lisbon,"[""Billing Phone""]",[]
+AGT-00018,Quinn,Patel,quinn.patel.18@acmemobile.example.com,Billing,Austin,"[""Billing Phone""]","[[""Billing Specialist"", 1], [""Spanish"", 3]]"
+AGT-00019,Nils,Varga,nils.varga.19@acmemobile.example.com,Billing,Manila,"[""Billing Phone""]","[[""Billing Specialist"", 3]]"
+AGT-00020,Ravi,Abara,ravi.abara.20@acmemobile.example.com,Billing,Lisbon,"[""Billing Phone""]","[[""Spanish"", 4]]"
+AGT-00021,Zed,Kim,zed.kim.21@acmemobile.example.com,Billing,Austin,"[""Billing Phone""]","[[""Billing Specialist"", 3]]"
+AGT-00022,Yara,Ivanova,yara.ivanova.22@acmemobile.example.com,Billing,Manila,"[""Billing Phone""]",[]
+AGT-00023,Dev,Jensen,dev.jensen.23@acmemobile.example.com,Billing,Lisbon,"[""Billing Phone""]",[]
+AGT-00024,Luca,Fujita,luca.fujita.24@acmemobile.example.com,Billing,Austin,"[""Billing Phone""]",[]
+AGT-00025,Ava,Varga,ava.varga.25@acmemobile.example.com,Billing,Manila,"[""Billing Phone""]","[[""Spanish"", 5]]"
+AGT-00026,Jon,Haddad,jon.haddad.26@acmemobile.example.com,Billing,Lisbon,"[""Billing Phone""]","[[""Billing Specialist"", 4], [""Device Repair"", 3]]"
+AGT-00027,Chloe,Silva,chloe.silva.27@acmemobile.example.com,Billing,Austin,"[""Billing Phone""]","[[""Spanish"", 3]]"
+AGT-00028,Ines,Rossi,ines.rossi.28@acmemobile.example.com,Billing,Manila,"[""Billing Phone""]",[]
+AGT-00029,Ravi,Garcia,ravi.garcia.29@acmemobile.example.com,Billing,Lisbon,"[""Billing Phone""]",[]
+AGT-00030,Luca,Okafor,luca.okafor.30@acmemobile.example.com,Billing,Austin,"[""Billing Phone""]",[]
+AGT-00031,Chloe,Kim,chloe.kim.31@acmemobile.example.com,Billing,Manila,"[""Billing Phone""]","[[""Billing Specialist"", 3], [""Device Repair"", 4]]"
+AGT-00032,Ben,Haddad,ben.haddad.32@acmemobile.example.com,Billing,Lisbon,"[""Billing Phone""]","[[""Billing Specialist"", 1]]"
+AGT-00033,Ines,Patel,ines.patel.33@acmemobile.example.com,Billing,Austin,"[""Billing Phone""]","[[""Billing Specialist"", 2]]"
+AGT-00034,Pia,Haddad,pia.haddad.34@acmemobile.example.com,Billing,Manila,"[""Billing Phone""]",[]
+AGT-00035,Dev,Novak,dev.novak.35@acmemobile.example.com,Billing,Lisbon,"[""Billing Phone""]",[]
+AGT-00036,Ben,Dube,ben.dube.36@acmemobile.example.com,Billing,Austin,"[""Billing Phone""]","[[""Billing Specialist"", 4]]"
+AGT-00037,Gia,Garcia,gia.garcia.37@acmemobile.example.com,Billing,Manila,"[""Billing Phone""]","[[""Spanish"", 2]]"
+AGT-00038,Chloe,Okafor,chloe.okafor.38@acmemobile.example.com,Billing,Lisbon,"[""Billing Phone""]","[[""Device Repair"", 3]]"
+AGT-00039,Ravi,Abara,ravi.abara.39@acmemobile.example.com,Billing,Austin,"[""Billing Phone""]",[]
+AGT-00040,Femi,Novak,femi.novak.40@acmemobile.example.com,Billing,Manila,"[""Billing Phone""]",[]
+AGT-00041,Ben,Fujita,ben.fujita.41@acmemobile.example.com,Tech Support,Lisbon,"[""Tech Support Chat""]",[]
+AGT-00042,Omar,Jensen,omar.jensen.42@acmemobile.example.com,Tech Support,Austin,"[""Tech Support Chat""]",[]
+AGT-00043,Ravi,Patel,ravi.patel.43@acmemobile.example.com,Tech Support,Manila,"[""Tech Support Chat""]","[[""Billing Specialist"", 2]]"
+AGT-00044,Ravi,Brandt,ravi.brandt.44@acmemobile.example.com,Tech Support,Lisbon,"[""Tech Support Chat""]","[[""Spanish"", 3]]"
+AGT-00045,Quinn,Fujita,quinn.fujita.45@acmemobile.example.com,Tech Support,Austin,"[""Tech Support Chat""]","[[""Billing Specialist"", 3], [""Device Repair"", 1]]"
+AGT-00046,Hiro,Mensah,hiro.mensah.46@acmemobile.example.com,Tech Support,Manila,"[""Tech Support Chat""]","[[""Billing Specialist"", 4]]"
+AGT-00047,Tomas,Costa,tomas.costa.47@acmemobile.example.com,Tech Support,Lisbon,"[""Tech Support Chat""]",[]
+AGT-00048,Ines,Garcia,ines.garcia.48@acmemobile.example.com,Tech Support,Austin,"[""Tech Support Chat""]",[]
+AGT-00049,Elif,Jensen,elif.jensen.49@acmemobile.example.com,Tech Support,Manila,"[""Tech Support Chat""]",[]
+AGT-00050,Ava,Okafor,ava.okafor.50@acmemobile.example.com,Tech Support,Lisbon,"[""Tech Support Chat""]","[[""Device Repair"", 3]]"
+AGT-00051,Quinn,Ivanova,quinn.ivanova.51@acmemobile.example.com,Tech Support,Austin,"[""Tech Support Chat""]","[[""Billing Specialist"", 3], [""Spanish"", 2]]"
+AGT-00052,Omar,Silva,omar.silva.52@acmemobile.example.com,Tech Support,Manila,"[""Tech Support Chat""]",[]
+AGT-00053,Uma,Rossi,uma.rossi.53@acmemobile.example.com,Tech Support,Lisbon,"[""Tech Support Chat""]","[[""Billing Specialist"", 4]]"
+AGT-00054,Elif,Ivanova,elif.ivanova.54@acmemobile.example.com,Tech Support,Austin,"[""Tech Support Chat""]","[[""Billing Specialist"", 2]]"
+AGT-00055,Tomas,Garcia,tomas.garcia.55@acmemobile.example.com,Tech Support,Manila,"[""Tech Support Chat""]",[]
+AGT-00056,Ines,Rossi,ines.rossi.56@acmemobile.example.com,Tech Support,Lisbon,"[""Tech Support Chat""]",[]
+AGT-00057,Chloe,Novak,chloe.novak.57@acmemobile.example.com,Tech Support,Austin,"[""Tech Support Chat""]","[[""Spanish"", 3]]"
+AGT-00058,Ines,Fujita,ines.fujita.58@acmemobile.example.com,Tech Support,Manila,"[""Tech Support Chat""]",[]
+AGT-00059,Ava,Dube,ava.dube.59@acmemobile.example.com,Tech Support,Lisbon,"[""Tech Support Chat""]","[[""Billing Specialist"", 4]]"
+AGT-00060,Luca,Tanaka,luca.tanaka.60@acmemobile.example.com,Tech Support,Austin,"[""Tech Support Chat""]","[[""Device Repair"", 3]]"
+AGT-00061,Ben,Laine,ben.laine.61@acmemobile.example.com,Tech Support,Manila,"[""Tech Support Chat""]","[[""Billing Specialist"", 2], [""Spanish"", 4]]"
+AGT-00062,Nils,Varga,nils.varga.62@acmemobile.example.com,Tech Support,Lisbon,"[""Tech Support Chat""]",[]
+AGT-00063,Femi,Fujita,femi.fujita.63@acmemobile.example.com,Tech Support,Austin,"[""Tech Support Chat""]","[[""Spanish"", 4]]"
+AGT-00064,Nils,Haddad,nils.haddad.64@acmemobile.example.com,Tech Support,Manila,"[""Tech Support Chat""]",[]
+AGT-00065,Ben,Patel,ben.patel.65@acmemobile.example.com,Tech Support,Lisbon,"[""Tech Support Chat""]","[[""Billing Specialist"", 4]]"
+AGT-00066,Hiro,Haddad,hiro.haddad.66@acmemobile.example.com,Tech Support,Austin,"[""Tech Support Chat""]","[[""Billing Specialist"", 2]]"
+AGT-00067,Zed,Ivanova,zed.ivanova.67@acmemobile.example.com,Tech Support,Manila,"[""Tech Support Chat""]",[]
+AGT-00068,Ravi,Kim,ravi.kim.68@acmemobile.example.com,Tech Support,Lisbon,"[""Tech Support Chat""]","[[""Spanish"", 5]]"
+AGT-00069,Ines,Brandt,ines.brandt.69@acmemobile.example.com,Tech Support,Austin,"[""Tech Support Chat""]","[[""Billing Specialist"", 3]]"
+AGT-00070,Tomas,Rossi,tomas.rossi.70@acmemobile.example.com,Tech Support,Manila,"[""Tech Support Chat""]","[[""Billing Specialist"", 4], [""Spanish"", 1]]"
+AGT-00071,Quinn,Silva,quinn.silva.71@acmemobile.example.com,Returns,Lisbon,"[""Returns Email""]",[]
+AGT-00072,Gia,Laine,gia.laine.72@acmemobile.example.com,Returns,Austin,"[""Returns Email""]",[]
+AGT-00073,Tomas,Kim,tomas.kim.73@acmemobile.example.com,Returns,Manila,"[""Returns Email""]","[[""Spanish"", 5]]"
+AGT-00074,Vik,Novak,vik.novak.74@acmemobile.example.com,Returns,Lisbon,"[""Returns Email""]",[]
+AGT-00075,Gia,Novak,gia.novak.75@acmemobile.example.com,Returns,Austin,"[""Returns Email""]",[]
+AGT-00076,Femi,Varga,femi.varga.76@acmemobile.example.com,Returns,Manila,"[""Returns Email""]",[]
+AGT-00077,Jon,Jensen,jon.jensen.77@acmemobile.example.com,Returns,Lisbon,"[""Returns Email""]","[[""Billing Specialist"", 4]]"
+AGT-00078,Omar,Okafor,omar.okafor.78@acmemobile.example.com,Returns,Austin,"[""Returns Email""]",[]
+AGT-00079,Yara,Fujita,yara.fujita.79@acmemobile.example.com,Returns,Manila,"[""Returns Email""]",[]
+AGT-00080,Tomas,Kim,tomas.kim.80@acmemobile.example.com,Returns,Lisbon,"[""Returns Email""]","[[""Billing Specialist"", 5]]"
+AGT-00081,Gia,Eriksen,gia.eriksen.81@acmemobile.example.com,Returns,Austin,"[""Returns Email""]","[[""Billing Specialist"", 2]]"
+AGT-00082,Chloe,Okafor,chloe.okafor.82@acmemobile.example.com,Returns,Manila,"[""Returns Email""]",[]
+AGT-00083,Wen,Mensah,wen.mensah.83@acmemobile.example.com,Returns,Lisbon,"[""Returns Email""]",[]
+AGT-00084,Ava,Dube,ava.dube.84@acmemobile.example.com,Returns,Austin,"[""Returns Email""]",[]
+AGT-00085,Wen,Rossi,wen.rossi.85@acmemobile.example.com,Returns,Manila,"[""Returns Email""]",[]
+AGT-00086,Dev,Okafor,dev.okafor.86@acmemobile.example.com,Returns,Lisbon,"[""Back Office Review""]","[[""Billing Specialist"", 3]]"
+AGT-00087,Kaia,Okafor,kaia.okafor.87@acmemobile.example.com,Returns,Austin,"[""Back Office Review""]",[]
+AGT-00088,Ravi,Okafor,ravi.okafor.88@acmemobile.example.com,Returns,Manila,"[""Back Office Review""]",[]
+AGT-00089,Ines,Haddad,ines.haddad.89@acmemobile.example.com,Returns,Lisbon,"[""Back Office Review""]",[]
+AGT-00090,Pia,Haddad,pia.haddad.90@acmemobile.example.com,Returns,Austin,"[""Back Office Review""]","[[""Spanish"", 2]]"
+AGT-00091,Kaia,Silva,kaia.silva.91@acmemobile.example.com,Returns,Manila,"[""Back Office Review""]","[[""Billing Specialist"", 2]]"
+AGT-00092,Gia,Costa,gia.costa.92@acmemobile.example.com,Returns,Lisbon,"[""Back Office Review""]",[]
+AGT-00093,Ben,Garcia,ben.garcia.93@acmemobile.example.com,Returns,Austin,"[""Back Office Review""]",[]
+AGT-00094,Wen,Abara,wen.abara.94@acmemobile.example.com,Returns,Manila,"[""Back Office Review""]",[]
+AGT-00095,Ava,Laine,ava.laine.95@acmemobile.example.com,Returns,Lisbon,"[""Back Office Review""]",[]

@@ -1,0 +1,13 @@
+agent,telephony_id,chat_id,ticketing_id
+ava@acme.example.com,T100,C200,K300
+ben@acme.example.com,T101,,
+chloe@acme.example.com,,C202,
+dev@acme.example.com,T103,,
+elif@acme.example.com,T104,C204,K304
+femi@acme.example.com,,,
+gia@acme.example.com,T106,C206,
+hiro@acme.example.com,T107,,
+ines@acme.example.com,,C208,K308
+jon@acme.example.com,T109,,
+kaia@acme.example.com,T110,C210,
+luca@acme.example.com,,,

@@ -1,0 +1,11 @@
+{
+  "name": "agent-state-simulator",
+  "private": true,
+  "type": "module",
+  "description": "Streams realistic agent presence states from a weekly schedule, with a rotating out-of-adherence pool.",
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" }
+}

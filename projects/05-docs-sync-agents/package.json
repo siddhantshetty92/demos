@@ -1,0 +1,16 @@
+{
+  "name": "docs-sync-agents",
+  "private": true,
+  "type": "module",
+  "description": "Classifies each merge for API-contract and runbook impact with an LLM, then hands approved work to writer agents.",
+  "scripts": {
+    "sync": "node sync.js",
+    "eval": "node eval.js",
+    "eval:live": "node eval.js --provider anthropic",
+    "test": "node --test"
+  },
+  "optionalDependencies": {
+    "@anthropic-ai/sdk": "^0.135.0"
+  },
+  "engines": { "node": ">=20" }
+}

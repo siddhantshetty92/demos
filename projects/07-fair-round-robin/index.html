@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shadow Round-Robin</title>
+<style>
+:root { --bg: #f7f6f2; --surface: #fff; --surface-2: #efeee8; --text: #1b1b19; --muted: #6c6b66; --line: rgba(0,0,0,.1); --accent: #2a6fd6; --warn: #b9661c; }
+@media (prefers-color-scheme: dark) { :root { --bg: #121211; --surface: #1c1c1a; --surface-2: #272725; --text: #f0efe9; --muted: #a2a19a; --line: rgba(255,255,255,.12); --accent: #5b95ea; --warn: #e09a55; } }
+* { box-sizing: border-box; }
+html { background: var(--bg); }
+body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+.page { max-width: 1100px; margin: 0 auto; padding: 28px 16px 64px; }
+h1 { font-size: 20px; margin: 0; }
+.sub { color: var(--muted); font-size: 12.5px; margin: 4px 0 16px; }
+.controls { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; font-size: 13px; margin-bottom: 14px; }
+.controls input { width: 56px; font: inherit; padding: 3px 6px; background: var(--surface); color: var(--text); border: 1px solid var(--line); border-radius: 6px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.chip { background: var(--surface-2); border-radius: 999px; padding: 4px 12px; font-size: 12.5px; }
+.chip b { font-variant-numeric: tabular-nums; }
+.board { display: grid; gap: 8px; }
+.call { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; display: grid; grid-template-columns: 140px 1fr 220px; gap: 12px; align-items: center; }
+@media (max-width: 720px) { .call { grid-template-columns: 1fr; } }
+.when { font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.title { font-weight: 600; }
+.free { font-size: 12px; color: var(--muted); }
+.why { font-size: 11.5px; color: var(--muted); }
+.why.warn { color: var(--warn); }
+select { font: inherit; padding: 4px 6px; width: 100%; background: var(--surface); color: var(--text); border: 1px solid var(--line); border-radius: 6px; }
+button { font: inherit; font-size: 12.5px; background: none; border: 1px solid var(--line); color: var(--text); border-radius: 6px; padding: 3px 10px; cursor: pointer; }
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>Shadow Round-Robin</h1>
+  <p class="sub" id="sub"></p>
+  <div class="controls">
+    <label>Max calls per person this week <input id="cap" type="number" min="1" max="10" value="2"></label>
+    <button id="reset">Clear manual picks</button>
+  </div>
+  <div class="chips" id="chips"></div>
+  <div class="board" id="board"></div>
+</div>
+<script src="assign.js"></script>
+<script src="snapshot.js"></script>
+<script>
+const { assign, NONE, NOT_NEEDED } = FairRoundRobin;
+const KEY = "fair-round-robin.v1";
+let saved = {};
+try { saved = JSON.parse(localStorage.getItem(KEY)) ?? {}; } catch {}
+const state = { cap: saved.cap ?? 2, overrides: saved.overrides ?? {} };
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+const when = (iso) => new Date(iso).toLocaleString(undefined, { weekday: "short", hour: "numeric", minute: "2-digit" });
+
+function persist() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} }
+
+function render() {
+  const { roster, history, meetings, generatedAt } = SNAPSHOT;
+  const { assignments, load } = assign({ meetings, roster, perPersonCap: state.cap, history, overrides: state.overrides });
+  const unfilled = Object.values(assignments).filter((a) => !a.person && a.reason !== "not needed").length;
+  document.getElementById("sub").textContent = `${meetings.length} customer calls · ${roster.length} engineers · calendar snapshot ${new Date(generatedAt).toLocaleString()} · ${unfilled} without a shadow`;
+  document.getElementById("chips").innerHTML = roster.map((p) => `<span class="chip">${esc(p)} <b>${load[p]}</b> this week · ${history[p] ?? 0} before</span>`).join("");
+  document.getElementById("board").innerHTML = [...meetings].sort((a, b) => a.start.localeCompare(b.start)).map((m) => {
+    const a = assignments[m.id];
+    const override = state.overrides[m.id] ?? "";
+    const options = [`<option value="">Auto${!override && a.person ? ` (${esc(a.person)})` : ""}</option>`, `<option value="${NONE}">No shadow</option>`, `<option value="${NOT_NEEDED}">Not needed</option>`]
+      .concat(roster.map((p) => `<option value="${esc(p)}">${esc(p)}${m.free.includes(p) ? "" : " (busy)"}</option>`));
+    return `<div class="call">
+      <div class="when">${esc(when(m.start))}</div>
+      <div><div class="title">${esc(m.title)}</div><div class="free">Free: ${m.free.length ? m.free.map(esc).join(", ") : "nobody"}</div></div>
+      <div><select data-id="${m.id}">${options.join("")}</select><div class="why ${a.person ? "" : "warn"}">${a.person ? `${esc(a.person)} — ${esc(a.reason)}` : esc(a.reason)}</div></div>
+    </div>`;
+  }).join("");
+  document.querySelectorAll("select[data-id]").forEach((select) => {
+    select.value = state.overrides[select.dataset.id] ?? "";
+    select.onchange = () => {
+      if (select.value) state.overrides[select.dataset.id] = select.value; else delete state.overrides[select.dataset.id];
+      persist(); render();
+    };
+  });
+}
+
+const cap = document.getElementById("cap");
+cap.value = state.cap;
+cap.oninput = () => { state.cap = Math.max(1, Number(cap.value) || 1); persist(); render(); };
+document.getElementById("reset").onclick = () => { state.overrides = {}; persist(); render(); };
+render();
+</script>
+</body>
+</html>

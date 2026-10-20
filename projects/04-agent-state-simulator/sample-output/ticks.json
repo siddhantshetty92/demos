@@ -1,0 +1,1772 @@
+[
+ {
+  "at": "2026-10-21T13:00:00.000Z",
+  "onShift": 6,
+  "outOfAdherence": [
+   "ines@acme.example.com",
+   "chloe@acme.example.com",
+   "ben@acme.example.com"
+  ],
+  "batches": {
+   "telephony": [
+    {
+     "agent_id": "T100",
+     "state": "Not Ready",
+     "scheduled_activity": "Break",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T13:00:00.000Z"
+    },
+    {
+     "agent_id": "T101",
+     "state": "Personal",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T13:00:00.000Z"
+    },
+    {
+     "agent_id": "T106",
+     "state": "Not Ready",
+     "scheduled_activity": "Break",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T13:00:00.000Z"
+    },
+    {
+     "agent_id": "T107",
+     "state": "On Call",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T13:00:00.000Z"
+    }
+   ],
+   "chat": [
+    {
+     "agent_id": "C200",
+     "state": "Away",
+     "scheduled_activity": "Break",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T13:00:00.000Z"
+    },
+    {
+     "agent_id": "C202",
+     "state": "Away",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T13:00:00.000Z"
+    },
+    {
+     "agent_id": "C206",
+     "state": "Away",
+     "scheduled_activity": "Break",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T13:00:00.000Z"
+    },
+    {
+     "agent_id": "C208",
+     "state": "Away",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T13:00:00.000Z"
+    }
+   ],
+   "ticketing": [
+    {
+     "agent_id": "K300",
+     "state": "Unavailable",
+     "scheduled_activity": "Break",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T13:00:00.000Z"
+    },
+    {
+     "agent_id": "K308",
+     "state": "Unavailable",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T13:00:00.000Z"
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-21T13:30:00.000Z",
+  "onShift": 6,
+  "outOfAdherence": [
+   "ines@acme.example.com",
+   "chloe@acme.example.com",
+   "ben@acme.example.com"
+  ],
+  "batches": {
+   "telephony": [
+    {
+     "agent_id": "T100",
+     "state": "Available",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T13:30:00.000Z"
+    },
+    {
+     "agent_id": "T101",
+     "state": "Not Ready",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T13:30:00.000Z"
+    },
+    {
+     "agent_id": "T106",
+     "state": "Available",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T13:30:00.000Z"
+    },
+    {
+     "agent_id": "T107",
+     "state": "After Call Work",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T13:30:00.000Z"
+    }
+   ],
+   "chat": [
+    {
+     "agent_id": "C200",
+     "state": "Online",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T13:30:00.000Z"
+    },
+    {
+     "agent_id": "C202",
+     "state": "Offline",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T13:30:00.000Z"
+    },
+    {
+     "agent_id": "C206",
+     "state": "Online",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T13:30:00.000Z"
+    },
+    {
+     "agent_id": "C208",
+     "state": "Offline",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T13:30:00.000Z"
+    }
+   ],
+   "ticketing": [
+    {
+     "agent_id": "K300",
+     "state": "Working Tickets",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T13:30:00.000Z"
+    },
+    {
+     "agent_id": "K308",
+     "state": "Unavailable",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T13:30:00.000Z"
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-21T14:00:00.000Z",
+  "onShift": 8,
+  "outOfAdherence": [
+   "ines@acme.example.com",
+   "chloe@acme.example.com",
+   "dev@acme.example.com"
+  ],
+  "batches": {
+   "telephony": [
+    {
+     "agent_id": "T100",
+     "state": "On Call",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T14:00:00.000Z"
+    },
+    {
+     "agent_id": "T101",
+     "state": "Not Ready",
+     "scheduled_activity": "Break",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T14:00:00.000Z"
+    },
+    {
+     "agent_id": "T103",
+     "state": "Not Ready",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T14:00:00.000Z"
+    },
+    {
+     "agent_id": "T106",
+     "state": "After Call Work",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T14:00:00.000Z"
+    },
+    {
+     "agent_id": "T107",
+     "state": "Not Ready",
+     "scheduled_activity": "Break",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T14:00:00.000Z"
+    },
+    {
+     "agent_id": "T109",
+     "state": "Available",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T14:00:00.000Z"
+    }
+   ],
+   "chat": [
+    {
+     "agent_id": "C200",
+     "state": "Chatting",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T14:00:00.000Z"
+    },
+    {
+     "agent_id": "C202",
+     "state": "Away",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T14:00:00.000Z"
+    },
+    {
+     "agent_id": "C206",
+     "state": "Online",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T14:00:00.000Z"
+    },
+    {
+     "agent_id": "C208",
+     "state": "Offline",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T14:00:00.000Z"
+    }
+   ],
+   "ticketing": [
+    {
+     "agent_id": "K300",
+     "state": "Reviewing",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T14:00:00.000Z"
+    },
+    {
+     "agent_id": "K308",
+     "state": "Unavailable",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T14:00:00.000Z"
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-21T14:30:00.000Z",
+  "onShift": 8,
+  "outOfAdherence": [
+   "dev@acme.example.com",
+   "jon@acme.example.com",
+   "ines@acme.example.com"
+  ],
+  "batches": {
+   "telephony": [
+    {
+     "agent_id": "T100",
+     "state": "Available",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T14:30:00.000Z"
+    },
+    {
+     "agent_id": "T101",
+     "state": "Available",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T14:30:00.000Z"
+    },
+    {
+     "agent_id": "T103",
+     "state": "Lunch",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T14:30:00.000Z"
+    },
+    {
+     "agent_id": "T106",
+     "state": "Available",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T14:30:00.000Z"
+    },
+    {
+     "agent_id": "T107",
+     "state": "Available",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T14:30:00.000Z"
+    },
+    {
+     "agent_id": "T109",
+     "state": "Lunch",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T14:30:00.000Z"
+    }
+   ],
+   "chat": [
+    {
+     "agent_id": "C200",
+     "state": "Online",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T14:30:00.000Z"
+    },
+    {
+     "agent_id": "C202",
+     "state": "Online",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T14:30:00.000Z"
+    },
+    {
+     "agent_id": "C206",
+     "state": "Chatting",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T14:30:00.000Z"
+    },
+    {
+     "agent_id": "C208",
+     "state": "Away",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T14:30:00.000Z"
+    }
+   ],
+   "ticketing": [
+    {
+     "agent_id": "K300",
+     "state": "Reviewing",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T14:30:00.000Z"
+    },
+    {
+     "agent_id": "K308",
+     "state": "Unavailable",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T14:30:00.000Z"
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-21T15:00:00.000Z",
+  "onShift": 8,
+  "outOfAdherence": [
+   "dev@acme.example.com",
+   "jon@acme.example.com",
+   "hiro@acme.example.com"
+  ],
+  "batches": {
+   "telephony": [
+    {
+     "agent_id": "T100",
+     "state": "Not Ready",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T15:00:00.000Z"
+    },
+    {
+     "agent_id": "T101",
+     "state": "After Call Work",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T15:00:00.000Z"
+    },
+    {
+     "agent_id": "T103",
+     "state": "Personal",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T15:00:00.000Z"
+    },
+    {
+     "agent_id": "T106",
+     "state": "Not Ready",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T15:00:00.000Z"
+    },
+    {
+     "agent_id": "T107",
+     "state": "Lunch",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T15:00:00.000Z"
+    },
+    {
+     "agent_id": "T109",
+     "state": "Personal",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T15:00:00.000Z"
+    }
+   ],
+   "chat": [
+    {
+     "agent_id": "C200",
+     "state": "Away",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T15:00:00.000Z"
+    },
+    {
+     "agent_id": "C202",
+     "state": "Away",
+     "scheduled_activity": "Break",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T15:00:00.000Z"
+    },
+    {
+     "agent_id": "C206",
+     "state": "Away",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T15:00:00.000Z"
+    },
+    {
+     "agent_id": "C208",
+     "state": "Away",
+     "scheduled_activity": "Break",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T15:00:00.000Z"
+    }
+   ],
+   "ticketing": [
+    {
+     "agent_id": "K300",
+     "state": "Unavailable",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T15:00:00.000Z"
+    },
+    {
+     "agent_id": "K308",
+     "state": "Unavailable",
+     "scheduled_activity": "Break",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T15:00:00.000Z"
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-21T15:30:00.000Z",
+  "onShift": 8,
+  "outOfAdherence": [
+   "hiro@acme.example.com",
+   "jon@acme.example.com",
+   "dev@acme.example.com"
+  ],
+  "batches": {
+   "telephony": [
+    {
+     "agent_id": "T100",
+     "state": "Lunch",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T15:30:00.000Z"
+    },
+    {
+     "agent_id": "T101",
+     "state": "Available",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T15:30:00.000Z"
+    },
+    {
+     "agent_id": "T103",
+     "state": "Lunch",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T15:30:00.000Z"
+    },
+    {
+     "agent_id": "T106",
+     "state": "Lunch",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T15:30:00.000Z"
+    },
+    {
+     "agent_id": "T107",
+     "state": "Personal",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T15:30:00.000Z"
+    },
+    {
+     "agent_id": "T109",
+     "state": "Not Ready",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T15:30:00.000Z"
+    }
+   ],
+   "chat": [
+    {
+     "agent_id": "C200",
+     "state": "Away",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T15:30:00.000Z"
+    },
+    {
+     "agent_id": "C202",
+     "state": "Online",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T15:30:00.000Z"
+    },
+    {
+     "agent_id": "C206",
+     "state": "Offline",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T15:30:00.000Z"
+    },
+    {
+     "agent_id": "C208",
+     "state": "Online",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T15:30:00.000Z"
+    }
+   ],
+   "ticketing": [
+    {
+     "agent_id": "K300",
+     "state": "Unavailable",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T15:30:00.000Z"
+    },
+    {
+     "agent_id": "K308",
+     "state": "Working Tickets",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T15:30:00.000Z"
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-21T16:00:00.000Z",
+  "onShift": 10,
+  "outOfAdherence": [
+   "ava@acme.example.com",
+   "gia@acme.example.com",
+   "ines@acme.example.com"
+  ],
+  "batches": {
+   "telephony": [
+    {
+     "agent_id": "T100",
+     "state": "Not Ready",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T16:00:00.000Z"
+    },
+    {
+     "agent_id": "T101",
+     "state": "Not Ready",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:00:00.000Z"
+    },
+    {
+     "agent_id": "T103",
+     "state": "Not Ready",
+     "scheduled_activity": "Break",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:00:00.000Z"
+    },
+    {
+     "agent_id": "T104",
+     "state": "Available",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:00:00.000Z"
+    },
+    {
+     "agent_id": "T106",
+     "state": "Not Ready",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T16:00:00.000Z"
+    },
+    {
+     "agent_id": "T107",
+     "state": "Not Ready",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:00:00.000Z"
+    },
+    {
+     "agent_id": "T109",
+     "state": "Not Ready",
+     "scheduled_activity": "Break",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:00:00.000Z"
+    },
+    {
+     "agent_id": "T110",
+     "state": "Available",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:00:00.000Z"
+    }
+   ],
+   "chat": [
+    {
+     "agent_id": "C200",
+     "state": "Away",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T16:00:00.000Z"
+    },
+    {
+     "agent_id": "C202",
+     "state": "Chatting",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:00:00.000Z"
+    },
+    {
+     "agent_id": "C204",
+     "state": "Online",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:00:00.000Z"
+    },
+    {
+     "agent_id": "C206",
+     "state": "Away",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T16:00:00.000Z"
+    },
+    {
+     "agent_id": "C208",
+     "state": "Offline",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T16:00:00.000Z"
+    },
+    {
+     "agent_id": "C210",
+     "state": "Online",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:00:00.000Z"
+    }
+   ],
+   "ticketing": [
+    {
+     "agent_id": "K300",
+     "state": "Unavailable",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T16:00:00.000Z"
+    },
+    {
+     "agent_id": "K304",
+     "state": "Working Tickets",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:00:00.000Z"
+    },
+    {
+     "agent_id": "K308",
+     "state": "Unavailable",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T16:00:00.000Z"
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-21T16:30:00.000Z",
+  "onShift": 10,
+  "outOfAdherence": [
+   "gia@acme.example.com",
+   "ines@acme.example.com",
+   "chloe@acme.example.com"
+  ],
+  "batches": {
+   "telephony": [
+    {
+     "agent_id": "T100",
+     "state": "On Call",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:30:00.000Z"
+    },
+    {
+     "agent_id": "T101",
+     "state": "Lunch",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:30:00.000Z"
+    },
+    {
+     "agent_id": "T103",
+     "state": "On Call",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:30:00.000Z"
+    },
+    {
+     "agent_id": "T104",
+     "state": "On Call",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:30:00.000Z"
+    },
+    {
+     "agent_id": "T106",
+     "state": "Lunch",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T16:30:00.000Z"
+    },
+    {
+     "agent_id": "T107",
+     "state": "Lunch",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:30:00.000Z"
+    },
+    {
+     "agent_id": "T109",
+     "state": "Available",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:30:00.000Z"
+    },
+    {
+     "agent_id": "T110",
+     "state": "On Call",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:30:00.000Z"
+    }
+   ],
+   "chat": [
+    {
+     "agent_id": "C200",
+     "state": "Chatting",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:30:00.000Z"
+    },
+    {
+     "agent_id": "C202",
+     "state": "Offline",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T16:30:00.000Z"
+    },
+    {
+     "agent_id": "C204",
+     "state": "Chatting",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:30:00.000Z"
+    },
+    {
+     "agent_id": "C206",
+     "state": "Offline",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T16:30:00.000Z"
+    },
+    {
+     "agent_id": "C208",
+     "state": "Away",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T16:30:00.000Z"
+    },
+    {
+     "agent_id": "C210",
+     "state": "Chatting",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:30:00.000Z"
+    }
+   ],
+   "ticketing": [
+    {
+     "agent_id": "K300",
+     "state": "Working Tickets",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:30:00.000Z"
+    },
+    {
+     "agent_id": "K304",
+     "state": "Reviewing",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T16:30:00.000Z"
+    },
+    {
+     "agent_id": "K308",
+     "state": "Unavailable",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T16:30:00.000Z"
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-21T17:00:00.000Z",
+  "onShift": 10,
+  "outOfAdherence": [
+   "gia@acme.example.com",
+   "elif@acme.example.com",
+   "hiro@acme.example.com"
+  ],
+  "batches": {
+   "telephony": [
+    {
+     "agent_id": "T100",
+     "state": "After Call Work",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:00:00.000Z"
+    },
+    {
+     "agent_id": "T101",
+     "state": "Available",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:00:00.000Z"
+    },
+    {
+     "agent_id": "T103",
+     "state": "On Call",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:00:00.000Z"
+    },
+    {
+     "agent_id": "T104",
+     "state": "Personal",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T17:00:00.000Z"
+    },
+    {
+     "agent_id": "T106",
+     "state": "Personal",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T17:00:00.000Z"
+    },
+    {
+     "agent_id": "T107",
+     "state": "Not Ready",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T17:00:00.000Z"
+    },
+    {
+     "agent_id": "T109",
+     "state": "On Call",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:00:00.000Z"
+    },
+    {
+     "agent_id": "T110",
+     "state": "After Call Work",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:00:00.000Z"
+    }
+   ],
+   "chat": [
+    {
+     "agent_id": "C200",
+     "state": "Chatting",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:00:00.000Z"
+    },
+    {
+     "agent_id": "C202",
+     "state": "Away",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:00:00.000Z"
+    },
+    {
+     "agent_id": "C204",
+     "state": "Offline",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T17:00:00.000Z"
+    },
+    {
+     "agent_id": "C206",
+     "state": "Away",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T17:00:00.000Z"
+    },
+    {
+     "agent_id": "C208",
+     "state": "Away",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:00:00.000Z"
+    },
+    {
+     "agent_id": "C210",
+     "state": "Online",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:00:00.000Z"
+    }
+   ],
+   "ticketing": [
+    {
+     "agent_id": "K300",
+     "state": "Working Tickets",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:00:00.000Z"
+    },
+    {
+     "agent_id": "K304",
+     "state": "Unavailable",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T17:00:00.000Z"
+    },
+    {
+     "agent_id": "K308",
+     "state": "Unavailable",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:00:00.000Z"
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-21T17:30:00.000Z",
+  "onShift": 10,
+  "outOfAdherence": [
+   "elif@acme.example.com",
+   "hiro@acme.example.com",
+   "dev@acme.example.com"
+  ],
+  "batches": {
+   "telephony": [
+    {
+     "agent_id": "T100",
+     "state": "Not Ready",
+     "scheduled_activity": "Coaching",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:30:00.000Z"
+    },
+    {
+     "agent_id": "T101",
+     "state": "On Call",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:30:00.000Z"
+    },
+    {
+     "agent_id": "T103",
+     "state": "Personal",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T17:30:00.000Z"
+    },
+    {
+     "agent_id": "T104",
+     "state": "Lunch",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T17:30:00.000Z"
+    },
+    {
+     "agent_id": "T106",
+     "state": "Not Ready",
+     "scheduled_activity": "Coaching",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:30:00.000Z"
+    },
+    {
+     "agent_id": "T107",
+     "state": "Lunch",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T17:30:00.000Z"
+    },
+    {
+     "agent_id": "T109",
+     "state": "After Call Work",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:30:00.000Z"
+    },
+    {
+     "agent_id": "T110",
+     "state": "Available",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:30:00.000Z"
+    }
+   ],
+   "chat": [
+    {
+     "agent_id": "C200",
+     "state": "Away",
+     "scheduled_activity": "Coaching",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:30:00.000Z"
+    },
+    {
+     "agent_id": "C202",
+     "state": "Offline",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:30:00.000Z"
+    },
+    {
+     "agent_id": "C204",
+     "state": "Away",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T17:30:00.000Z"
+    },
+    {
+     "agent_id": "C206",
+     "state": "Away",
+     "scheduled_activity": "Coaching",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:30:00.000Z"
+    },
+    {
+     "agent_id": "C208",
+     "state": "Offline",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:30:00.000Z"
+    },
+    {
+     "agent_id": "C210",
+     "state": "Chatting",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:30:00.000Z"
+    }
+   ],
+   "ticketing": [
+    {
+     "agent_id": "K300",
+     "state": "Unavailable",
+     "scheduled_activity": "Coaching",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:30:00.000Z"
+    },
+    {
+     "agent_id": "K304",
+     "state": "Unavailable",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T17:30:00.000Z"
+    },
+    {
+     "agent_id": "K308",
+     "state": "Unavailable",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T17:30:00.000Z"
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-21T18:00:00.000Z",
+  "onShift": 12,
+  "outOfAdherence": [
+   "hiro@acme.example.com",
+   "ava@acme.example.com",
+   "ben@acme.example.com"
+  ],
+  "batches": {
+   "telephony": [
+    {
+     "agent_id": "T100",
+     "state": "Not Ready",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T18:00:00.000Z"
+    },
+    {
+     "agent_id": "T101",
+     "state": "Lunch",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T18:00:00.000Z"
+    },
+    {
+     "agent_id": "T103",
+     "state": "Not Ready",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:00:00.000Z"
+    },
+    {
+     "agent_id": "T104",
+     "state": "Not Ready",
+     "scheduled_activity": "Break",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:00:00.000Z"
+    },
+    {
+     "agent_id": "T106",
+     "state": "Available",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:00:00.000Z"
+    },
+    {
+     "agent_id": "T107",
+     "state": "Personal",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T18:00:00.000Z"
+    },
+    {
+     "agent_id": "T109",
+     "state": "Not Ready",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:00:00.000Z"
+    },
+    {
+     "agent_id": "T110",
+     "state": "Not Ready",
+     "scheduled_activity": "Break",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:00:00.000Z"
+    }
+   ],
+   "chat": [
+    {
+     "agent_id": "C200",
+     "state": "Away",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T18:00:00.000Z"
+    },
+    {
+     "agent_id": "C202",
+     "state": "Online",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:00:00.000Z"
+    },
+    {
+     "agent_id": "C204",
+     "state": "Away",
+     "scheduled_activity": "Break",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:00:00.000Z"
+    },
+    {
+     "agent_id": "C206",
+     "state": "Online",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:00:00.000Z"
+    },
+    {
+     "agent_id": "C208",
+     "state": "Online",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:00:00.000Z"
+    },
+    {
+     "agent_id": "C210",
+     "state": "Away",
+     "scheduled_activity": "Break",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:00:00.000Z"
+    }
+   ],
+   "ticketing": [
+    {
+     "agent_id": "K300",
+     "state": "Unavailable",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T18:00:00.000Z"
+    },
+    {
+     "agent_id": "K304",
+     "state": "Unavailable",
+     "scheduled_activity": "Break",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:00:00.000Z"
+    },
+    {
+     "agent_id": "K308",
+     "state": "Working Tickets",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:00:00.000Z"
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-21T18:30:00.000Z",
+  "onShift": 12,
+  "outOfAdherence": [
+   "ava@acme.example.com",
+   "kaia@acme.example.com",
+   "gia@acme.example.com"
+  ],
+  "batches": {
+   "telephony": [
+    {
+     "agent_id": "T100",
+     "state": "Lunch",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T18:30:00.000Z"
+    },
+    {
+     "agent_id": "T101",
+     "state": "Not Ready",
+     "scheduled_activity": "Coaching",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:30:00.000Z"
+    },
+    {
+     "agent_id": "T103",
+     "state": "Not Ready",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:30:00.000Z"
+    },
+    {
+     "agent_id": "T104",
+     "state": "Available",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:30:00.000Z"
+    },
+    {
+     "agent_id": "T106",
+     "state": "Not Ready",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T18:30:00.000Z"
+    },
+    {
+     "agent_id": "T107",
+     "state": "Not Ready",
+     "scheduled_activity": "Coaching",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:30:00.000Z"
+    },
+    {
+     "agent_id": "T109",
+     "state": "Lunch",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:30:00.000Z"
+    },
+    {
+     "agent_id": "T110",
+     "state": "Not Ready",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T18:30:00.000Z"
+    }
+   ],
+   "chat": [
+    {
+     "agent_id": "C200",
+     "state": "Offline",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T18:30:00.000Z"
+    },
+    {
+     "agent_id": "C202",
+     "state": "Chatting",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:30:00.000Z"
+    },
+    {
+     "agent_id": "C204",
+     "state": "Online",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:30:00.000Z"
+    },
+    {
+     "agent_id": "C206",
+     "state": "Offline",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T18:30:00.000Z"
+    },
+    {
+     "agent_id": "C208",
+     "state": "Online",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:30:00.000Z"
+    },
+    {
+     "agent_id": "C210",
+     "state": "Away",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T18:30:00.000Z"
+    }
+   ],
+   "ticketing": [
+    {
+     "agent_id": "K300",
+     "state": "Unavailable",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T18:30:00.000Z"
+    },
+    {
+     "agent_id": "K304",
+     "state": "Working Tickets",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:30:00.000Z"
+    },
+    {
+     "agent_id": "K308",
+     "state": "Reviewing",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T18:30:00.000Z"
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-21T19:00:00.000Z",
+  "onShift": 10,
+  "outOfAdherence": [
+   "kaia@acme.example.com",
+   "dev@acme.example.com",
+   "elif@acme.example.com"
+  ],
+  "batches": {
+   "telephony": [
+    {
+     "agent_id": "T101",
+     "state": "Available",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T19:00:00.000Z"
+    },
+    {
+     "agent_id": "T103",
+     "state": "Not Ready",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T19:00:00.000Z"
+    },
+    {
+     "agent_id": "T104",
+     "state": "Personal",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T19:00:00.000Z"
+    },
+    {
+     "agent_id": "T107",
+     "state": "Available",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T19:00:00.000Z"
+    },
+    {
+     "agent_id": "T109",
+     "state": "Available",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T19:00:00.000Z"
+    },
+    {
+     "agent_id": "T110",
+     "state": "Personal",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T19:00:00.000Z"
+    }
+   ],
+   "chat": [
+    {
+     "agent_id": "C202",
+     "state": "Online",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T19:00:00.000Z"
+    },
+    {
+     "agent_id": "C204",
+     "state": "Offline",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T19:00:00.000Z"
+    },
+    {
+     "agent_id": "C208",
+     "state": "Chatting",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T19:00:00.000Z"
+    },
+    {
+     "agent_id": "C210",
+     "state": "Away",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T19:00:00.000Z"
+    }
+   ],
+   "ticketing": [
+    {
+     "agent_id": "K304",
+     "state": "Unavailable",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T19:00:00.000Z"
+    },
+    {
+     "agent_id": "K308",
+     "state": "Reviewing",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T19:00:00.000Z"
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-21T19:30:00.000Z",
+  "onShift": 10,
+  "outOfAdherence": [
+   "kaia@acme.example.com",
+   "dev@acme.example.com",
+   "elif@acme.example.com"
+  ],
+  "batches": {
+   "telephony": [
+    {
+     "agent_id": "T101",
+     "state": "On Call",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T19:30:00.000Z"
+    },
+    {
+     "agent_id": "T103",
+     "state": "Lunch",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T19:30:00.000Z"
+    },
+    {
+     "agent_id": "T104",
+     "state": "Not Ready",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T19:30:00.000Z"
+    },
+    {
+     "agent_id": "T107",
+     "state": "On Call",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T19:30:00.000Z"
+    },
+    {
+     "agent_id": "T109",
+     "state": "Available",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T19:30:00.000Z"
+    },
+    {
+     "agent_id": "T110",
+     "state": "Not Ready",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T19:30:00.000Z"
+    }
+   ],
+   "chat": [
+    {
+     "agent_id": "C202",
+     "state": "Away",
+     "scheduled_activity": "Coaching",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T19:30:00.000Z"
+    },
+    {
+     "agent_id": "C204",
+     "state": "Away",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T19:30:00.000Z"
+    },
+    {
+     "agent_id": "C208",
+     "state": "Away",
+     "scheduled_activity": "Coaching",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T19:30:00.000Z"
+    },
+    {
+     "agent_id": "C210",
+     "state": "Away",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T19:30:00.000Z"
+    }
+   ],
+   "ticketing": [
+    {
+     "agent_id": "K304",
+     "state": "Unavailable",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T19:30:00.000Z"
+    },
+    {
+     "agent_id": "K308",
+     "state": "Unavailable",
+     "scheduled_activity": "Coaching",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T19:30:00.000Z"
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-21T20:00:00.000Z",
+  "onShift": 8,
+  "outOfAdherence": [
+   "chloe@acme.example.com",
+   "jon@acme.example.com",
+   "dev@acme.example.com"
+  ],
+  "batches": {
+   "telephony": [
+    {
+     "agent_id": "T103",
+     "state": "Personal",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T20:00:00.000Z"
+    },
+    {
+     "agent_id": "T104",
+     "state": "Not Ready",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T20:00:00.000Z"
+    },
+    {
+     "agent_id": "T109",
+     "state": "Lunch",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T20:00:00.000Z"
+    },
+    {
+     "agent_id": "T110",
+     "state": "Not Ready",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T20:00:00.000Z"
+    }
+   ],
+   "chat": [
+    {
+     "agent_id": "C202",
+     "state": "Away",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T20:00:00.000Z"
+    },
+    {
+     "agent_id": "C204",
+     "state": "Away",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T20:00:00.000Z"
+    },
+    {
+     "agent_id": "C208",
+     "state": "Online",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T20:00:00.000Z"
+    },
+    {
+     "agent_id": "C210",
+     "state": "Away",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T20:00:00.000Z"
+    }
+   ],
+   "ticketing": [
+    {
+     "agent_id": "K304",
+     "state": "Unavailable",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T20:00:00.000Z"
+    },
+    {
+     "agent_id": "K308",
+     "state": "Working Tickets",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T20:00:00.000Z"
+    }
+   ]
+  }
+ },
+ {
+  "at": "2026-10-21T20:30:00.000Z",
+  "onShift": 8,
+  "outOfAdherence": [
+   "luca@acme.example.com",
+   "ines@acme.example.com",
+   "chloe@acme.example.com"
+  ],
+  "batches": {
+   "telephony": [
+    {
+     "agent_id": "T103",
+     "state": "Not Ready",
+     "scheduled_activity": "Coaching",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T20:30:00.000Z"
+    },
+    {
+     "agent_id": "T104",
+     "state": "Not Ready",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T20:30:00.000Z"
+    },
+    {
+     "agent_id": "T109",
+     "state": "Not Ready",
+     "scheduled_activity": "Coaching",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T20:30:00.000Z"
+    },
+    {
+     "agent_id": "T110",
+     "state": "Lunch",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T20:30:00.000Z"
+    }
+   ],
+   "chat": [
+    {
+     "agent_id": "C202",
+     "state": "Offline",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T20:30:00.000Z"
+    },
+    {
+     "agent_id": "C204",
+     "state": "Offline",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T20:30:00.000Z"
+    },
+    {
+     "agent_id": "C208",
+     "state": "Offline",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T20:30:00.000Z"
+    },
+    {
+     "agent_id": "C210",
+     "state": "Offline",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T20:30:00.000Z"
+    }
+   ],
+   "ticketing": [
+    {
+     "agent_id": "K304",
+     "state": "Unavailable",
+     "scheduled_activity": "Lunch",
+     "out_of_adherence": false,
+     "timestamp": "2026-10-21T20:30:00.000Z"
+    },
+    {
+     "agent_id": "K308",
+     "state": "Unavailable",
+     "scheduled_activity": "Phones",
+     "out_of_adherence": true,
+     "timestamp": "2026-10-21T20:30:00.000Z"
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,10 @@
+diff --git a/src/shifts.js b/src/shifts.js
+--- a/src/shifts.js
++++ b/src/shifts.js
+@@ -20,6 +20,7 @@ export function toShift(row) {
+     start: row.start,
+     end: row.end,
+     assignee: row.assignee,
++    timezone: row.timezone ?? undefined,
+   };
+ }

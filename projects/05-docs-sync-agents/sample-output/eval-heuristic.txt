@@ -1,0 +1,12 @@
+provider: heuristic
+
+scenario                      expected            got                 
+additive-code-first           additive/skip       additive/skip       ✓
+additive-optional-field       additive/skip       additive/skip       ✓
+breaking-new-required-field   breaking/skip       breaking/skip       ✓
+breaking-v2-cutover           breaking/new        breaking/new        ✓
+ops-only-backoff              skip/update         skip/update         ✓
+skip-internal-rename          skip/skip           skip/skip           ✓
+skip-test-only                skip/skip           additive/skip       ✗
+
+6/7 correct

@@ -1,0 +1,61 @@
+company = "Acme Mobile"
+timezone = "America/Chicago"
+interval_minutes = 30
+weeks_back = 4
+sites = ["Austin", "Manila", "Lisbon"]
+
+[business_hours]
+open = 7
+close = 21
+weekend_weight = 0.45
+
+[variables]
+shrinkage_percent = 30
+concurrency = 1
+minimum_staffing = 1
+
+[skills]
+"Billing Specialist" = 0.25
+"Spanish" = 0.2
+"Device Repair" = 0.1
+
+[story]
+swing = 0.35
+coverage = 0.7
+noise = 0.08
+seed = 42
+events = [
+  { queue = "Billing Phone", date = "2026-10-12", multiplier = 1.8 },
+]
+
+[[queues]]
+name = "Billing Phone"
+channel = "phone"
+team = "Billing"
+headcount = 40
+aht_seconds = 420
+sl_threshold_seconds = 60
+sl_target = 0.8
+
+[[queues]]
+name = "Tech Support Chat"
+channel = "chat"
+team = "Tech Support"
+headcount = 30
+aht_seconds = 600
+sl_threshold_seconds = 120
+sl_target = 0.85
+
+[[queues]]
+name = "Returns Email"
+channel = "email"
+team = "Returns"
+headcount = 15
+aht_seconds = 300
+
+[[queues]]
+name = "Back Office Review"
+channel = "back_office"
+team = "Returns"
+headcount = 10
+aht_seconds = 900

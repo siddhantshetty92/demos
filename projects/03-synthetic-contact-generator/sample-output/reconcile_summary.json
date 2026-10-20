@@ -1,0 +1,9 @@
+{
+  "intervals": 882,
+  "offered_mismatches": 0,
+  "abandoned_mismatches": 0,
+  "max_aht_error_seconds": 0.0003,
+  "overall_sl_error": 0.0004,
+  "max_interval_sl_error": 0.259,
+  "overall_asa_error_seconds": 0.0099
+}

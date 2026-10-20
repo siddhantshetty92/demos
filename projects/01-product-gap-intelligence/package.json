@@ -1,0 +1,13 @@
+{
+  "name": "product-gap-intelligence",
+  "private": true,
+  "type": "module",
+  "description": "Turns product-gap tickets into a revenue-weighted dashboard behind an SSO gate.",
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node server.js --demo",
+    "preview": "node build-preview.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" }
+}
